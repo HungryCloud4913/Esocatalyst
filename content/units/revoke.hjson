@@ -37,4 +37,38 @@ parts: [{
     }
 ]
 weapons: [{
+                name: lycor-railgun
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 0.57
+                rotationLimit: 95
+                x: 0
+                y: -2
+                reload: 250
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 10
+            shootSound: shortRayLycor
+            shootEffect: none
+             bullet: {
+		type: RailBulletType
+		shootEffect: instShoot
+                hitEffect: massiveExplosion
+                pierceEffect: railHit
+                smokeEffect: smokeCloud
+                pointEffect: instTrail
+                despawnEffect: instBomb
+                pointEffectSpace: 25
+                colors: [D7BDFF, D7BDFF, D7BDFF]
+                damage: 700
+		length: 850
+		reflectable: false
+               }
+        trailLength: 10
+        trailColor: D7BDFF
 }]
