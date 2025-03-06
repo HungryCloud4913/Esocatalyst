@@ -37,6 +37,7 @@ parts: [
   {
     type: RegionPart
     under: true
+    layerOffset: -0.001
     suffix: -revokespin1
     color:  ffffffff
     progress: reload
@@ -48,6 +49,7 @@ parts: [
   {
     type: RegionPart
     under: true
+    layerOffset: -0.001
     suffix: -revokespin2
     color:  ffffffff
     progress: reload
@@ -159,7 +161,7 @@ weapons: [
 		reflectable: false
                 lightningSpacing: 12
                 lightningLength: 3
-                lightningDelay: 0.3
+                lightningDelay: 0.4
                 lightningLengthRand: 5
                 lightningDamage: 45
                 lightningAngleRand: 30
