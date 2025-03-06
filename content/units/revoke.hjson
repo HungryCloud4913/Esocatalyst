@@ -33,7 +33,101 @@ legGroupSize: 4
 rippleScale: 3.1
 targetair: true
 faceTarget: false
-weapons: [{
+parts: [
+  {
+    type: RegionPart
+    suffix: -revokespin1
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
+    moveRot: 90
+    weaponIndex: 0
+  }
+  {
+    type: RegionPart
+    suffix: -revokespin2
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
+    moveRot: -90
+    weaponIndex: 0
+  }
+]
+weapons: [
+ {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 140
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 90
+    cooldownTime: 90
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 50
+    cooldownTime: 50
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+{
                 name: lycor-railgun
                 mirror: false
                 top: true
@@ -42,7 +136,7 @@ weapons: [{
 		rotateSpeed: 0.57
                 x: 0
                 y: -2
-                shootY: +10
+                shootY: +25
                 reload: 450
                 shoot: {
                     shots: 1
@@ -57,10 +151,18 @@ weapons: [{
                 pierceCap: 25
                 length: 850
                 width: 30
-                lifetime: 100
+                lifetime: 110
                 colors: [8047BE, D7BDFF, F6F0FF]
                 damage: 700
 		reflectable: false
+                lightningSpacing: 12
+                lightningLength: 6
+                lightningDelay: 1.7
+                lightningLengthRand: 15
+                lightningDamage: 45
+                lightningAngleRand: 30
+                largeHit: true
+                sideAngle: 45
                }
         trailLength: 10
         trailColor: D7BDFF
