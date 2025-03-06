@@ -8,7 +8,6 @@ singleTarget: false
 shadowElevation: 0.3
 hitSize: 87
 groundLayer: 74.0031
-shadowElevation: 0.15
 rotate: true
 rotateSpeed: 1.1
 hovering: true
@@ -38,12 +37,11 @@ parts: [{
 ]
 weapons: [{
                 name: lycor-railgun
-                mirror: true
+                mirror: false
                 top: true
                 alternate: true
                 rotate: true
 		rotateSpeed: 0.57
-                rotationLimit: 95
                 x: 0
                 y: -2
                 reload: 250
@@ -53,10 +51,13 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: shortRayLycor
+            shootSound: wierdBlast
             shootEffect: none
              bullet: {
-		type: RailBulletType
+                type: LaserBulletType
+                pierceCap: 20
+                length: 850
+                width: 10
 		shootEffect: instShoot
                 hitEffect: massiveExplosion
                 pierceEffect: railHit
@@ -66,7 +67,6 @@ weapons: [{
                 pointEffectSpace: 25
                 colors: [D7BDFF, D7BDFF, D7BDFF]
                 damage: 700
-		length: 850
 		reflectable: false
                }
         trailLength: 10
