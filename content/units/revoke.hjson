@@ -5,28 +5,28 @@ speed: 0.6
 outlineColor: 2D2F39
 singleTarget: false
 shadowElevation: 0.3
-hitSize: 110
+hitSize: 87
 groundLayer: 74
 rotateSpeed: 1.1
 hovering: true
 legStraightness: 0.2
 legSpeed: 0.2
 legCount: 8
-legLength: 100
+legLength: 25
 lockLegBase: true
 legContinuousMove: true
-legExtension: -20
+legExtension: -15
 legBaseOffset: 7
-legMaxLength: 1.4
+legMaxLength: 1.3
 legLengthScl: 1
 legMinLength: 1
-legForwardScl: 0.8
+legForwardScl: 0.9
 fogRadius: 75
 legSplashDamage: 45
 legSplashRange: 24
 drownTimeMultiplier: 3
 legGroupSize: 4
-rippleScale: 1.6
+rippleScale: 3.6
 parts: [{
     }
 ]
