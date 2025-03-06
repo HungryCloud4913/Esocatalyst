@@ -31,6 +31,8 @@ baseLegStraightness: 0.5
 rippleScale: 0.8
 legGroupSize: 4
 rippleScale: 3.1
+targetair: true
+faceTarget: false
 weapons: [{
                 name: lycor-railgun
                 mirror: false
@@ -40,7 +42,7 @@ weapons: [{
 		rotateSpeed: 0.57
                 x: 0
                 y: -2
-                reload: 250
+                reload: 450
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -54,7 +56,7 @@ weapons: [{
                 pierceCap: 25
                 length: 850
                 width: 30
-                lifetime: 80
+                lifetime: 100
                 colors: [8047BE, D7BDFF, F6F0FF]
                 damage: 700
 		reflectable: false
