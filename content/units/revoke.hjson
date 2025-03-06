@@ -144,13 +144,13 @@ weapons: [
                 width: 40
                 lifetime: 140
                 colors: [8047BE, D7BDFF, F6F0FF]
-                damage: 700
+                damage: 1450
 		reflectable: false
                 lightningSpacing: 12
                 lightningLength: 3
                 lightningDelay: 0.4
                 lightningLengthRand: 5
-                lightningDamage: 45
+                lightningDamage: 60
                 lightningAngleRand: 30
                 largeHit: true
                 sideAngle: 45
