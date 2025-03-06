@@ -9,7 +9,7 @@ hitSize: 31
 rotateSpeed: 2
 targetair: false
 faceTarget: true
-shadowElevation: 0.15
+shadowElevation: 0.3
 legStraightness: 0.25
 legSpeed: 1.1
 legCount: 6
