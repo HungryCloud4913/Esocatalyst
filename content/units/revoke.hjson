@@ -14,7 +14,7 @@ rotateSpeed: 1.1
 hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 12
+legCount: 8
 legLength: 64
 lockLegBase: true
 legContinuousMove: true
