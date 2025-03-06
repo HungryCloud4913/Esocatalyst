@@ -39,7 +39,6 @@ parts: [
     under: true
     layerOffset: -0.001
     suffix: -revokespin1
-    color:  ffffffff
     progress: reload
     outline: true
     mirror: false
@@ -51,7 +50,6 @@ parts: [
     under: true
     layerOffset: -0.001
     suffix: -revokespin2
-    color:  ffffffff
     progress: reload
     outline: true
     mirror: false
