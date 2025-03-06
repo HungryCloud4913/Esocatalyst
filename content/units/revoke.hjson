@@ -38,22 +38,11 @@ parts: [
     type: RegionPart
     under: true
     layerOffset: -0.001
-    suffix: -revokespin1
+    suffix: -revokespin
     progress: reload
     outline: true
     mirror: false
     moveRot: 180
-    weaponIndex: 0
-  }
-  {
-    type: RegionPart
-    under: true
-    layerOffset: -0.001
-    suffix: -revokespin2
-    progress: reload
-    outline: true
-    mirror: false
-    moveRot: -180
     weaponIndex: 0
   }
 ]
