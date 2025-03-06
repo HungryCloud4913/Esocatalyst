@@ -7,7 +7,6 @@ outlineColor: 2D2F39
 singleTarget: false
 shadowElevation: 0.3
 hitSize: 87
-groundLayer: 74
 rotate: true
 rotateSpeed: 1.1
 hovering: true
@@ -32,9 +31,6 @@ baseLegStraightness: 0.5
 rippleScale: 0.8
 legGroupSize: 4
 rippleScale: 3.1
-parts: [{
-    }
-]
 weapons: [{
                 name: lycor-railgun
                 mirror: false
@@ -51,15 +47,15 @@ weapons: [{
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: wierdblast
+            shootSound: weirdblast
             shootEffect: none
              bullet: {
                 type: LaserBulletType
                 pierceCap: 25
                 length: 850
                 width: 30
-                lifetime: 60
-                colors: [D7BDFF, D7BDFF, D7BDFF]
+                lifetime: 80
+                colors: [8047BE, D7BDFF, F6F0FF]
                 damage: 700
 		reflectable: false
                }
