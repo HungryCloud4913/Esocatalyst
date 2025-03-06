@@ -36,22 +36,24 @@ faceTarget: false
 parts: [
   {
     type: RegionPart
+    under: true
     suffix: -revokespin1
     color:  ffffffff
     progress: reload
     outline: true
     mirror: false
-    moveRot: 90
+    moveRot: 180
     weaponIndex: 0
   }
   {
     type: RegionPart
+    under: true
     suffix: -revokespin2
     color:  ffffffff
     progress: reload
     outline: true
     mirror: false
-    moveRot: -90
+    moveRot: -180
     weaponIndex: 0
   }
 ]
@@ -150,15 +152,15 @@ weapons: [
                 type: LaserBulletType
                 pierceCap: 25
                 length: 850
-                width: 30
-                lifetime: 110
+                width: 40
+                lifetime: 140
                 colors: [8047BE, D7BDFF, F6F0FF]
                 damage: 700
 		reflectable: false
                 lightningSpacing: 12
-                lightningLength: 6
-                lightningDelay: 1.7
-                lightningLengthRand: 15
+                lightningLength: 3
+                lightningDelay: 0.3
+                lightningLengthRand: 5
                 lightningDamage: 45
                 lightningAngleRand: 30
                 largeHit: true
