@@ -20,9 +20,9 @@ lockLegBase: true
 legContinuousMove: true
 legExtension: 30
 legBaseOffset: 5
-legMaxLength: 30
+legMaxLength: 1.8
 legLengthScl: 10
-legMinLength: 20
+legMinLength: 1
 legForwardScl: 0.9
 fogRadius: 75
 legSplashDamage: 45
