@@ -158,6 +158,19 @@ weapons: [
                 intervalRandomSpread: 0
                 intervalSpread: 0
                 intervalAngle: 0
+fragBullets: 1
+         fragBullet: {
+		lightColor: baff94
+                type: SolidBullteType
+                lifetime: 110
+                speed: 7
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                mixColorFrom: D7BDF
+                mixColorTo: D7BDFF
+                width: 1
+                height: 1
+                damage: 10
                 intervalBullet: {
                 type: SolidBulletType
                 damage: 20
@@ -185,6 +198,7 @@ weapons: [
 		shrinkX: 0.05
 		shrinkY: 0.05
                }
+}     
                }
         trailLength: 10
         trailColor: D7BDFF
