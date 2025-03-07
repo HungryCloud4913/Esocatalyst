@@ -158,7 +158,7 @@ weapons: [
 fragBullets: 1
          fragBullet: {
 		lightColor: baff94
-                type: SolidBullteType
+                type: SolidBulletType
                 lifetime: 110
                 speed: 7
                 backColor: D7BDFF
