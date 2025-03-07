@@ -33,6 +33,10 @@ legGroupSize: 4
 rippleScale: 3.1
 targetair: true
 faceTarget: false
+immunities: [
+burning,
+melting
+]
 parts: [
   {
     type: RegionPart
@@ -119,7 +123,7 @@ weapons: [
     }
   }
 {
-                name: lycor-railgun
+                name: revoke-railgun
                 mirror: false
                 top: true
                 alternate: true
