@@ -159,9 +159,9 @@ weapons: [
                 intervalAngle: 0
                 intervalBullet: {
 			type: BasicBulletType
-			speed: 10
+			speed: 10.5
 			damage: 10
-                        lifetime: 75
+                        lifetime: 80
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
@@ -172,16 +172,16 @@ weapons: [
 		        shrinkX: 0.05
 		        shrinkY: 0.05
                 bulletInterval: 0.3
-                intervalRandomSpread: 90
+                intervalRandomSpread: 110
                 intervalAngle: 0
-                intervalBullets: 3
+                intervalBullets: 2
         trailLength: 10
         trailColor: D7BDFF
                 intervalBullet: {
 			type: BasicBulletType
 			speed: 6
 			damage: 35
-                        lifetime: 15
+                        lifetime: 30
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
@@ -193,6 +193,8 @@ weapons: [
 		        weaveScl: 13
 		        shrinkX: 0.05
 		        shrinkY: 0.05
+		homingPower: 0.02
+		homingRange: 100
         trailLength: 10
         trailColor: D7BDFF
 }
