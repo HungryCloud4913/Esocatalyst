@@ -161,30 +161,31 @@ weapons: [
 			type: BasicBulletType
 			speed: 10
 			damage: 10
-                        lifetime: 60
+                        lifetime: 75
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
-                        pierceCap: 10000
+                        pierceCap: 25
                         backColor: D7BDFF
                         frontColor: D7BDFF
        		        trailColor: D7BDFF
 		        shrinkX: 0.05
 		        shrinkY: 0.05
-                bulletInterval: 1
-                intervalRandomSpread: 180
+                bulletInterval: 0.3
+                intervalRandomSpread: 90
                 intervalAngle: 0
+                intervalBullets: 3
         trailLength: 10
         trailColor: D7BDFF
                 intervalBullet: {
 			type: BasicBulletType
 			speed: 6
 			damage: 35
-                        lifetime: 30
+                        lifetime: 15
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
-                        pierceCap: 10000
+                        pierceCap: 3
                         backColor: D7BDFF
                         frontColor: D7BDFF
        		        trailColor: D7BDFF
