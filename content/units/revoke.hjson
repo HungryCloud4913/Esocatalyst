@@ -154,14 +154,14 @@ weapons: [
                 lightningAngleRand: 30
                 largeHit: true
                 sideAngle: 45
-                bulletInterval: 60
+                bulletInterval: 180
                 intervalRandomSpread: 0
                 intervalAngle: 0
                 intervalBullet: {
 			type: BasicBulletType
-			speed: 20
-			damage: 800
-                        lifetime: 40
+			speed: 10
+			damage: 10
+                        lifetime: 60
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
@@ -174,11 +174,13 @@ weapons: [
                 bulletInterval: 1
                 intervalRandomSpread: 180
                 intervalAngle: 0
+        trailLength: 10
+        trailColor: D7BDFF
                 intervalBullet: {
 			type: BasicBulletType
-			speed: 37
-			damage: 800
-                        lifetime: 25
+			speed: 6
+			damage: 35
+                        lifetime: 30
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
@@ -190,6 +192,8 @@ weapons: [
 		        weaveScl: 13
 		        shrinkX: 0.05
 		        shrinkY: 0.05
+        trailLength: 10
+        trailColor: D7BDFF
 }
 }
 }
