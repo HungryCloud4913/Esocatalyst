@@ -185,7 +185,7 @@ fragBullets: 1
                 absorbable: false
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                mixColorFrom: D7BDF
+                mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
                 trailLength: 10
                 trailColor: D7BDFFF
