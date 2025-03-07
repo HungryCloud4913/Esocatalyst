@@ -154,42 +154,46 @@ weapons: [
                 lightningAngleRand: 30
                 largeHit: true
                 sideAngle: 45
-		fragOnHit: true
-  fragRandomSpread: 10
-  fragSpread: 20
-fragBullets: 1
-         fragBullet: {
-                type: SolidBulletType
-                lifetime: 110
-                speed: 7
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDF
-                mixColorTo: D7BDFF
-                width: 1
-                height: 1
-                damage: 10
-   bulletInterval: 10
-    intervalBullets: 3
-    intervalRandomSpread: 5
-    intervalSpread: 120
-    intervalBullet: {
-        type: MissileBulletType
-        damage: 30
-        despawnEffect: none
-                backColor: D7BDFF
-                frontColor: D7BDFF
-                mixColorFrom: D7BDF
-                mixColorTo: D7BDFF
-        trailColor: D7BDFF
-        trailLength: 10
-        speed: 4
-        weaveMag: 40
-        weaveScl: 6
-        lifetime: 40
-        }
+                bulletInterval: 60
+                intervalRandomSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+			type: BasicBulletType
+			speed: 20
+			damage: 800
+                        lifetime: 40
+		        splashDamageRadius: 0
+		        splashDamage: 0
+		        hitEffect: blastExplosion
+                        pierceCap: 10000
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+		        shrinkX: 0.05
+		        shrinkY: 0.05
+                bulletInterval: 1
+                intervalRandomSpread: 180
+                intervalAngle: 0
+                intervalBullet: {
+			type: BasicBulletType
+			speed: 37
+			damage: 800
+                        lifetime: 25
+		        splashDamageRadius: 0
+		        splashDamage: 0
+		        hitEffect: blastExplosion
+                        pierceCap: 10000
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+		        weaveMag: 10
+		        weaveScl: 13
+		        shrinkX: 0.05
+		        shrinkY: 0.05
 }
-               }
+}
+}
+
         trailLength: 10
         trailColor: D7BDFF
 }]
