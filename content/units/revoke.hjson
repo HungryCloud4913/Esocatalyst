@@ -154,10 +154,7 @@ weapons: [
                 lightningAngleRand: 30
                 largeHit: true
                 sideAngle: 45
-                bulletInterval: 1
-                intervalRandomSpread: 0
-                intervalSpread: 0
-                intervalAngle: 0
+		fragOnHit: true
 fragBullets: 1
          fragBullet: {
 		lightColor: baff94
@@ -171,6 +168,10 @@ fragBullets: 1
                 width: 1
                 height: 1
                 damage: 10
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
                 intervalBullet: {
                 type: SolidBulletType
                 damage: 20
