@@ -165,7 +165,7 @@ weapons: [
 		        splashDamageRadius: 0
 		        splashDamage: 0
 		        hitEffect: blastExplosion
-                        pierceCap: 100000
+                        pierceCap: 100000000
                         backColor: D7BDFF
                         frontColor: D7BDFF
        		        trailColor: D7BDFF
