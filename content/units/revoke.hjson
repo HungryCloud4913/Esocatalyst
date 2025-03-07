@@ -144,7 +144,7 @@ weapons: [
                 width: 40
                 lifetime: 140
                 colors: [8047BE, D7BDFF, F6F0FF]
-                damage: 2350
+                damage: 11500
 		reflectable: false
                 lightningSpacing: 12
                 lightningLength: 3
@@ -160,7 +160,7 @@ weapons: [
                 intervalBullet: {
 			type: BasicBulletType
 			speed: 10.5
-			damage: 250
+			damage: 560
                         lifetime: 80
 		        splashDamageRadius: 0
 		        splashDamage: 0
@@ -185,7 +185,7 @@ weapons: [
                 intervalBullet: {
 			type: BasicBulletType
 			speed: 6
-			damage: 125
+			damage: 325
                         lifetime: 30
 		        splashDamageRadius: 0
 		        splashDamage: 0
