@@ -284,7 +284,7 @@ type: ShootBarrel
       ]
                     shots: 2
                     shotDelay: 0
-                    FirstShotDelay: 0
+                    firstShotDelay: 0
             }
             inaccuracy: 0.2
             recoil: 1
@@ -409,7 +409,7 @@ fragBullet: {
 		rotateSpeed: 3.4
                 x: +14
                 y: +32
-                reload: 25
+                reload: 30
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -424,7 +424,75 @@ fragBullet: {
                 homing: false
                 speed: 7
                 sprite: large-bomb
-                lifetime: 35
+                lifetime: 40
+                knockback: -1
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                width: 20
+                height: 30
+                height: 13
+		weaveMag: 10
+		weaveScl: 13
+		shrinkX: 0.05
+		shrinkY: 0.05
+		fragOnHit: true
+		fragBullets: 5
+		fragBullet: {
+			type: BasicBulletType
+			speed: 2
+			damage: 5
+			splashDamage: 7
+			splashDamageRadius: 12
+			weaveMag: 5
+			weaveScl: 10
+			lifetime: 16
+			trailWidth: 2.1
+			width: 7
+			height: 7
+			shrinkX: 0.05
+			shrinkY: 0.05
+			sprite: large-bomb
+			despawnEffect: none
+			despawnHit: true
+			backColor: D7BDFF
+			frontColor: D7BDFF
+			}
+		splashDamageRadius: 30
+		splashDamage: 100
+		hitEffect: blastExplosion
+		shootEffect: shootBigColor
+		smokeEffect: shootSmokeDisperse
+		hitColor: D7BDFF
+        trailLength: 7
+        trailColor: D7BDFF
+               }
+}
+{
+                name: revoke-small
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 3.4
+                x: +14
+                y: +32
+                reload: 30
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+                    firstShotDelay: 15
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: dullExplosion
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 200
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 40
                 knockback: -1
                 backColor: D7BDFF
                 frontColor: D7BDFF
