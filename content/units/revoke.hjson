@@ -273,12 +273,17 @@ progress: recoil
                 top: true
                 rotate: true
 		rotateSpeed: 3
-                x: +20
-                y: -25
+                x: +34
+                y: -16
                 reload: 75
                 shoot: {
+type: ShootBarrel
+  barrels: [
+      -4.5, +6, 0,
+      +4.5, +6, 0,
+      ]
                     shots: 2
-                    shotDelay: 4
+                    shotDelay: 0
                     FirstShotDelay: 0
             }
             inaccuracy: 0.2
@@ -373,12 +378,12 @@ parts: [{
   mirror: false
   under: false
   moveX: 0
-  moveY: -5
+  moveY: 0
   moveRot: 0
   suffix: -barrel
   progress: recoil
   weaponIndex: 0
-  layerOffset: +0.001
+  layerOffset: -0.001
     }
 ]
 }
