@@ -272,7 +272,7 @@ progress: recoil
                 alternate: false
                 top: true
                 rotate: true
-		rotateSpeed: 3
+		rotateSpeed: 2.1
                 x: +44
                 y: -13
                 reload: 75
@@ -297,8 +297,8 @@ type: ShootBarrel
 			damage: 210
                         lifetime: 40
                         homing: false
-		        splashDamageRadius: 50
-		        splashDamage: 210
+		        splashDamageRadius: 45
+		        splashDamage: 105
 		        hitEffect: blastExplosion
                         backColor: D7BDFF
                         frontColor: D7BDFF
@@ -394,10 +394,82 @@ fragBullet: {
     damage: 210
     despawnEffect: none
     speed: 10
-    hitSize: 10
+    hitSize: 5
     lifetime: 8
     pierce: true
     pierceBuilding: true
     }
+}
+{
+                name: revoke-small
+                mirror: true
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 3.4
+                x: +11
+                y: +30
+                reload: 25
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.5
+            recoil: 2
+            shootSound: dullExplosion
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 200
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 35
+                knockback: -1
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                width: 20
+                height: 30
+                height: 13
+		weaveMag: 10
+		weaveScl: 13
+		shrinkX: 0.05
+		shrinkY: 0.05
+		fragOnHit: true
+		fragBullets: 5
+		fragBullet: {
+			type: BasicBulletType
+			speed: 3.5
+			damage: 5
+			hitEffect: {
+				type: WrapEffect
+				effect: dynamicSpikes
+				rot: 12
+				}
+			splashDamage: 7
+			splashDamageRadius: 12
+			weaveMag: 5
+			weaveScl: 10
+			lifetime: 18
+			trailWidth: 2.1
+			width: 7
+			height: 7
+			shrinkX: 0.05
+			shrinkY: 0.05
+			sprite: large-bomb
+			despawnEffect: none
+			despawnHit: true
+			backColor: D7BDFF
+			frontColor: D7BDFF
+			}
+		splashDamageRadius: 30
+		splashDamage: 100
+		hitEffect: blastExplosion
+		shootEffect: shootBigColor
+		smokeEffect: shootSmokeDisperse
+		hitColor: D7BDFF
+        trailLength: 7
+        trailColor: D7BDFF
+               }
 }
 ]
