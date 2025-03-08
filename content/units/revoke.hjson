@@ -407,8 +407,8 @@ fragBullet: {
                 alternate: true
                 rotate: true
 		rotateSpeed: 3.4
-                x: +11
-                y: +30
+                x: +14
+                y: +32
                 reload: 25
                 shoot: {
                     shots: 1
@@ -439,18 +439,13 @@ fragBullet: {
 		fragBullets: 5
 		fragBullet: {
 			type: BasicBulletType
-			speed: 3.5
+			speed: 2
 			damage: 5
-			hitEffect: {
-				type: WrapEffect
-				effect: dynamicSpikes
-				rot: 12
-				}
 			splashDamage: 7
 			splashDamageRadius: 12
 			weaveMag: 5
 			weaveScl: 10
-			lifetime: 18
+			lifetime: 16
 			trailWidth: 2.1
 			width: 7
 			height: 7
