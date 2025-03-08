@@ -122,285 +122,6 @@ weapons: [
     }
   }
 {
-                name: revoke-railgun
-                mirror: false
-                top: true
-                alternate: true
-                rotate: true
-		rotateSpeed: 0.57
-                x: 0
-                y: -2
-                shootY: +25
-                reload: 500
-                shoot: {
-                    shots: 1
-                    shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 10
-            shootSound: weirdblast
-            shootEffect: none
-             bullet: {
-                type: LaserBulletType
-                pierceCap: 25
-                length: 850
-                width: 40
-                lifetime: 140
-                colors: [8047BE, D7BDFF, F6F0FF]
-                damage: 11500
-		reflectable: false
-                lightningSpacing: 12
-                lightningLength: 3
-                lightningDelay: 0.4
-                lightningLengthRand: 5
-                lightningDamage: 75
-                lightningAngleRand: 30
-                largeHit: true
-                sideAngle: 45
-                bulletInterval: 180
-                intervalRandomSpread: 0
-                intervalAngle: 0
-                intervalBullet: {
-			type: BasicBulletType
-			speed: 10.5
-			damage: 560
-                        lifetime: 80
-		        splashDamageRadius: 0
-		        splashDamage: 0
-		        hitEffect: blastExplosion
-                pierce: true
-                pierceBuilding: true
-                pierceArmor: true
-                pierceCap: 1000000
-                        backColor: D7BDFF
-                        frontColor: D7BDFF
-       		        trailColor: D7BDFF
-		        shrinkX: 0.05
-		        shrinkY: 0.05
-                        absorbable: false
-                        reflectable: false
-                bulletInterval: 0.3
-                intervalRandomSpread: 110
-                intervalAngle: 0
-                intervalBullets: 2
-        trailLength: 10
-        trailColor: D7BDFF
-                intervalBullet: {
-			type: BasicBulletType
-			speed: 6
-			damage: 325
-                        lifetime: 30
-		        splashDamageRadius: 0
-		        splashDamage: 0
-		        hitEffect: blastExplosion
-                pierce: true
-                pierceBuilding: true
-                pierceArmor: true
-                pierceCap: 5
-                        backColor: D7BDFF
-                        frontColor: D7BDFF
-       		        trailColor: D7BDFF
-		        weaveMag: 10
-		        weaveScl: 13
-		        shrinkX: 0.05
-		        shrinkY: 0.05
-                        absorbable: false
-                        reflectable: false
-		homingPower: 0.02
-		homingRange: 100
-        trailLength: 10
-        trailColor: D7BDFF
-}
-}
-}
-
-        trailLength: 10
-        trailColor: D7BDFF
-parts: [
-
-///Black Hole
-{
-type: ShapePart
-  x: 0
-  y: -3
-radius: 5
-radiusTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-layer: 110
-circle: true
-hollow: false
-progress: recoil
-}
-{
-type: ShapePart
-  x: 0
-  y: -3
-radius: 4
-radiusTo: 0
-color: 000000ff
-colorTo: 000000ff
-layer: 111
-circle: true
-hollow: false
-progress: recoil
-}
-{
-type: HaloPart
-  x: 0
-  y: -3
-haloRadius: 4
-haloRadTo: 0
-layer: 110
-tri: true
-hollow: false
-triLength: 9
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-progress: recoil
-}
-]
-}
-{
-                name: lycor-dual
-                layerOffset: 0.1
-                mirror: true
-                alternate: false
-                top: true
-                rotate: true
-		rotateSpeed: 2.1
-                x: +44
-                y: -13
-                reload: 75
-                shoot: {
-type: ShootBarrel
-  barrels: [
-      -10, +6, 0,
-      +10, +6, 0,
-      ]
-                    shots: 2
-                    shotDelay: 0
-                    firstShotDelay: 0
-            }
-            inaccuracy: 0.2
-            recoil: 1
-            shootSound: vibroblast
-            shootEffect: none
-            bullet: {
-			type: SolidBulletType
-                        sprite: missile-large
-			speed: 10
-			damage: 210
-                        lifetime: 40
-                        homing: false
-		        splashDamageRadius: 45
-		        splashDamage: 105
-		        hitEffect: blastExplosion
-                        backColor: D7BDFF
-                        frontColor: D7BDFF
-       		        trailColor: D7BDFF
-                        trailLength: 6
-                width: 6
-                height: 9
-  hitEffect: {
-      type: MultiEffect
-      effects: [
-        {
-        type: WaveEffect
-        sizeTo: 17
-        colorFrom: D7BDFF
-        colorTo: D7BDFF
-        lifetime: 12
-        strokeFrom: 10
-        }
-        {  
-        type: ParticleEffect
-        colorFrom: D7BDFF
-        colorTo: D7BDFF
-        interp: circleOut
-        sizeInterp: pow10In
-        particles: 12
-        length: 10
-        lifetime: 70
-        }
-        {
-        type: ParticleEffect
-        line: true
-        colorFrom: D7BDFF
-        colorTo: D7BDFF
-        lenFrom: 8
-        lenTo: 2
-        strokeFrom: 1
-        strokeTo: 0
-        lifetime: 50
-        length: 10
-        interp: pow10Out
-        sizeInterp: pow5In
-        randLength: false
-        }
-        {  
-        type: ParticleEffect
-        colorFrom: D7BDFF
-        colorTo: D7BDFF
-        interp: circleOut
-        sizeInterp: pow10In
-        particles: 12
-        length: 80
-        lifetime: 80
-        cone: 20
-        }
-        {
-        type: ParticleEffect
-        line: true
-        colorFrom: D7BDFF
-        colorTo: D7BDFF
-        lenFrom: 8
-        lenTo: 2
-        strokeFrom: 1
-        strokeTo: 0
-        lifetime: 50
-        length: 80
-        interp: pow10Out
-        sizeInterp: pow5In
-        randLength: true
-        cone: 20
-        }
-        ]
-      }
-}
-shootEffect: shootBigColor
-parts: [{
-  type: RegionPart
-  mirror: false
-  moveX: 0
-  moveY: -5
-  moveRot: 0
-  suffix: -barrel
-  progress: recoil
-  weaponIndex: 0
-  under: true
-  layerOffset: -0.0001
-    }
-]
-fragBullets: 10
-fragRandomSpread: 360
-fragBullet: {
-    type: BulletType
-    hitEffect: none
-    damage: 210
-    despawnEffect: none
-    speed: 10
-    hitSize: 5
-    lifetime: 8
-    pierce: true
-    pierceBuilding: true
-    }
-}
-{
                 name: revoke-small
                 mirror: true
                 top: true
@@ -602,5 +323,284 @@ fragBullet: {
         trailLength: 7
         trailColor: D7BDFF
                }
+}
+{
+                name: lycor-dual
+                layerOffset: 0.1
+                mirror: true
+                alternate: false
+                top: true
+                rotate: true
+		rotateSpeed: 2.1
+                x: +44
+                y: -13
+                reload: 75
+                shoot: {
+type: ShootBarrel
+  barrels: [
+      -10, +6, 0,
+      +10, +6, 0,
+      ]
+                    shots: 2
+                    shotDelay: 0
+                    firstShotDelay: 0
+            }
+            inaccuracy: 0.2
+            recoil: 1
+            shootSound: vibroblast
+            shootEffect: none
+            bullet: {
+			type: SolidBulletType
+                        sprite: missile-large
+			speed: 10
+			damage: 210
+                        lifetime: 40
+                        homing: false
+		        splashDamageRadius: 45
+		        splashDamage: 105
+		        hitEffect: blastExplosion
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+                        trailLength: 6
+                width: 6
+                height: 9
+  hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        sizeTo: 17
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lifetime: 12
+        strokeFrom: 10
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 10
+        lifetime: 70
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 10
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: false
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 80
+        lifetime: 80
+        cone: 20
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 80
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: true
+        cone: 20
+        }
+        ]
+      }
+}
+shootEffect: shootBigColor
+parts: [{
+  type: RegionPart
+  mirror: false
+  moveX: 0
+  moveY: -5
+  moveRot: 0
+  suffix: -barrel
+  progress: recoil
+  weaponIndex: 0
+  under: true
+  layerOffset: -0.0001
+    }
+]
+fragBullets: 10
+fragRandomSpread: 360
+fragBullet: {
+    type: BulletType
+    hitEffect: none
+    damage: 210
+    despawnEffect: none
+    speed: 10
+    hitSize: 5
+    lifetime: 8
+    pierce: true
+    pierceBuilding: true
+    }
+}
+{
+                name: revoke-railgun
+                mirror: false
+                top: true
+                alternate: true
+                rotate: true
+		rotateSpeed: 0.57
+                x: 0
+                y: -2
+                shootY: +25
+                reload: 500
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 10
+            shootSound: weirdblast
+            shootEffect: none
+             bullet: {
+                type: LaserBulletType
+                pierceCap: 25
+                length: 850
+                width: 40
+                lifetime: 140
+                colors: [8047BE, D7BDFF, F6F0FF]
+                damage: 11500
+		reflectable: false
+                lightningSpacing: 12
+                lightningLength: 3
+                lightningDelay: 0.4
+                lightningLengthRand: 5
+                lightningDamage: 75
+                lightningAngleRand: 30
+                largeHit: true
+                sideAngle: 45
+                bulletInterval: 180
+                intervalRandomSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+			type: BasicBulletType
+			speed: 10.5
+			damage: 560
+                        lifetime: 80
+		        splashDamageRadius: 0
+		        splashDamage: 0
+		        hitEffect: blastExplosion
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+		        shrinkX: 0.05
+		        shrinkY: 0.05
+                        absorbable: false
+                        reflectable: false
+                bulletInterval: 0.3
+                intervalRandomSpread: 110
+                intervalAngle: 0
+                intervalBullets: 2
+        trailLength: 10
+        trailColor: D7BDFF
+                intervalBullet: {
+			type: BasicBulletType
+			speed: 6
+			damage: 325
+                        lifetime: 30
+		        splashDamageRadius: 0
+		        splashDamage: 0
+		        hitEffect: blastExplosion
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 5
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+		        weaveMag: 10
+		        weaveScl: 13
+		        shrinkX: 0.05
+		        shrinkY: 0.05
+                        absorbable: false
+                        reflectable: false
+		homingPower: 0.02
+		homingRange: 100
+        trailLength: 10
+        trailColor: D7BDFF
+}
+}
+}
+
+        trailLength: 10
+        trailColor: D7BDFF
+parts: [
+
+///Black Hole
+{
+type: ShapePart
+  x: 0
+  y: -3
+radius: 5
+radiusTo: 0
+color: D7BDFF
+colorTo: D7BDFF
+layer: 110
+circle: true
+hollow: false
+progress: recoil
+}
+{
+type: ShapePart
+  x: 0
+  y: -3
+radius: 4
+radiusTo: 0
+color: 000000ff
+colorTo: 000000ff
+layer: 111
+circle: true
+hollow: false
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: -3
+haloRadius: 4
+haloRadTo: 0
+layer: 110
+tri: true
+hollow: false
+triLength: 9
+triLengthTo: 0
+color: D7BDFF
+colorTo: D7BDFF
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+]
 }
 ]
