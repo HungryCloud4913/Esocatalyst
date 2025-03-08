@@ -275,7 +275,7 @@ progress: recoil
 		rotateSpeed: 3
                 x: +20
                 y: -25
-                reload: 166
+                reload: 75
                 shoot: {
                     shots: 2
                     shotDelay: 4
@@ -306,7 +306,7 @@ progress: recoil
       effects: [
         {
         type: WaveEffect
-        sizeTo: 10
+        sizeTo: 17
         colorFrom: D7BDFF
         colorTo: D7BDFF
         lifetime: 12
@@ -346,7 +346,7 @@ progress: recoil
         particles: 12
         length: 80
         lifetime: 80
-        cone: 10
+        cone: 20
         }
         {
         type: ParticleEffect
@@ -362,7 +362,7 @@ progress: recoil
         interp: pow10Out
         sizeInterp: pow5In
         randLength: true
-        cone: 10
+        cone: 20
         }
         ]
       }
