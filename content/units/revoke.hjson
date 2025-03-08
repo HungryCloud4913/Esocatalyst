@@ -279,8 +279,8 @@ progress: recoil
                 shoot: {
 type: ShootBarrel
   barrels: [
-      -7.5, +6, 0,
-      +7.5, +6, 0,
+      -8.2, +6, 0,
+      +8.2, +6, 0,
       ]
                     shots: 2
                     shotDelay: 0
@@ -378,12 +378,24 @@ parts: [{
   mirror: false
   under: false
   moveX: 0
-  moveY: 0
+  moveY: -5
   moveRot: 0
   suffix: -barrel
   progress: recoil
   weaponIndex: 0
-  layerOffset: -0.000001
+  layerOffset: +0.0001
+    }
+{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: -1
+  moveRot: 0
+  suffix: -top
+  progress: recoil
+  weaponIndex: 0
+  layerOffset: +0.0002
     }
 ]
 }
