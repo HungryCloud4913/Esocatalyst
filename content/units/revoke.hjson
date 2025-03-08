@@ -267,6 +267,7 @@ progress: recoil
 }
 {
                 name: lycor-dual
+                layerOffset: 0.1
                 mirror: true
                 alternate: false
                 top: true
@@ -278,8 +279,8 @@ progress: recoil
                 shoot: {
 type: ShootBarrel
   barrels: [
-      -9, +6, 0,
-      +9, +6, 0,
+      -10, +6, 0,
+      +10, +6, 0,
       ]
                     shots: 2
                     shotDelay: 0
