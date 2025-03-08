@@ -291,14 +291,14 @@ type: ShootBarrel
             shootSound: vibroblast
             shootEffect: none
             bullet: {
-			type: BasicBulletType
+			type: AtilleryBulletType
                         sprite: missile-large
 			speed: 10
 			damage: 210
-                        lifetime: 35
+                        lifetime: 40
                         homing: false
-		        splashDamageRadius: 15
-		        splashDamage: 15
+		        splashDamageRadius: 30
+		        splashDamage: 210
 		        hitEffect: blastExplosion
                         backColor: D7BDFF
                         frontColor: D7BDFF
