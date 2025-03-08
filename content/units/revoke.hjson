@@ -132,7 +132,7 @@ weapons: [
                 x: 0
                 y: -2
                 shootY: +25
-                reload: 450
+                reload: 500
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -265,4 +265,121 @@ shapes: 2
 progress: recoil
 }
 ]
-}]
+}
+{
+                name: lycor-dual
+                mirror: true
+                alternate: false
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: +20
+                y: -25
+                reload: 166
+                shoot: {
+                    shots: 2
+                    shotDelay: 4
+                    FirstShotDelay: 0
+            }
+            inaccuracy: 0.2
+            recoil: 1
+            shootSound: vibroblast
+            shootEffect: none
+            bullet: {
+			type: BasicBulletType
+                        sprite: missile-large
+			speed: 10
+			damage: 210
+                        lifetime: 30
+                        homing: false
+		        splashDamageRadius: 15
+		        splashDamage: 15
+		        hitEffect: blastExplosion
+                        backColor: D7BDFF
+                        frontColor: D7BDFF
+       		        trailColor: D7BDFF
+                        trailLength: 6
+                width: 6
+                height: 9
+  hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        sizeTo: 10
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lifetime: 12
+        strokeFrom: 10
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 10
+        lifetime: 70
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 10
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: false
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 80
+        lifetime: 80
+        cone: 10
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 80
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: true
+        cone: 10
+        }
+        ]
+      }
+}
+shootEffect: shootBigColor
+parts: [{
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 0
+  moveY: -5
+  moveRot: 0
+  suffix: -barrel
+  progress: recoil
+  weaponIndex: 0
+  layerOffset: +0.001
+    }
+]
+}
+]
