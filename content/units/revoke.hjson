@@ -474,8 +474,8 @@ fragBullet: {
                 alternate: true
                 rotate: true
 		rotateSpeed: 3.4
-                x: +14
-                y: +32
+                x: +24
+                y: +25
                 reload: 30
                 shoot: {
                     shots: 1
