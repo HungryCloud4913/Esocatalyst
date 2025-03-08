@@ -141,7 +141,7 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 75
+                damage: 200
                 homing: false
                 speed: 7
                 sprite: large-bomb
@@ -161,8 +161,8 @@ weapons: [
 		fragBullet: {
 			type: BasicBulletType
 			speed: 2
-			damage: 5
-			splashDamage: 7
+			damage: 150
+			splashDamage: 75
 			splashDamageRadius: 12
 			weaveMag: 5
 			weaveScl: 10
@@ -209,7 +209,7 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 75
+                damage: 200
                 homing: false
                 speed: 7
                 sprite: large-bomb
@@ -229,9 +229,8 @@ weapons: [
 		fragBullet: {
 			type: BasicBulletType
 			speed: 2
-			damage: 5
-			splashDamage: 7
-			splashDamageRadius: 12
+			damage: 150
+			splashDamage: 75
 			weaveMag: 5
 			weaveScl: 10
 			lifetime: 16
@@ -277,7 +276,7 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 75
+                damage: 200
                 homing: false
                 speed: 7
                 sprite: large-bomb
@@ -297,8 +296,8 @@ weapons: [
 		fragBullet: {
 			type: BasicBulletType
 			speed: 2
-			damage: 5
-			splashDamage: 7
+			damage: 150
+			splashDamage: 75
 			splashDamageRadius: 12
 			weaveMag: 5
 			weaveScl: 10
@@ -353,11 +352,11 @@ type: ShootBarrel
 			type: SolidBulletType
                         sprite: missile-large
 			speed: 10
-			damage: 210
+			damage: 530
                         lifetime: 40
                         homing: false
 		        splashDamageRadius: 45
-		        splashDamage: 105
+		        splashDamage: 410
 		        hitEffect: blastExplosion
                         backColor: D7BDFF
                         frontColor: D7BDFF
@@ -450,7 +449,7 @@ fragRandomSpread: 360
 fragBullet: {
     type: BulletType
     hitEffect: none
-    damage: 210
+    damage: 530
     despawnEffect: none
     speed: 10
     hitSize: 5
