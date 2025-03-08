@@ -273,7 +273,7 @@ progress: recoil
                 top: true
                 rotate: true
 		rotateSpeed: 3
-                x: +41
+                x: +44
                 y: -13
                 reload: 75
                 shoot: {
@@ -291,13 +291,13 @@ type: ShootBarrel
             shootSound: vibroblast
             shootEffect: none
             bullet: {
-			type: AtilleryBulletType
+			type: SolidBulletType
                         sprite: missile-large
 			speed: 10
 			damage: 210
                         lifetime: 40
                         homing: false
-		        splashDamageRadius: 30
+		        splashDamageRadius: 50
 		        splashDamage: 210
 		        hitEffect: blastExplosion
                         backColor: D7BDFF
@@ -386,5 +386,18 @@ parts: [{
   layerOffset: -0.0001
     }
 ]
+fragBullets: 10
+fragRandomSpread: 360
+fragBullet: {
+    type: BulletType
+    hitEffect: none
+    damage: 210
+    despawnEffect: none
+    speed: 10
+    hitSize: 10
+    lifetime: 8
+    pierce: true
+    pierceBuilding: true
+    }
 }
 ]
