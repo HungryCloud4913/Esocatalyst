@@ -13,7 +13,7 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.2
 legCount: 6
-legLength: 25
+legLength: 30
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
