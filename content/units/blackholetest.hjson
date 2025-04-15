@@ -48,7 +48,7 @@ type: ShapePart
   x: 0
   y: 0
 radius: 5
-radiusTo: 4
+radiusTo: 3
 color: D7BDFF
 colorTo: D7BDFF
 layer: 110
@@ -64,7 +64,7 @@ radius: 4
 radiusTo: 0
 color: 000000ff
 colorTo: 000000ff
-layer: 110.5
+layer: 111
 circle: true
 hollow: false
 progress: recoil
@@ -75,13 +75,31 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-layer: 111
+layer: 110
 tri: true
 hollow: false
 triLength: 20
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 20
+triLengthTo: 0
+color: E1CEFF
+colorTo: E1CEFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
