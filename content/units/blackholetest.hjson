@@ -53,7 +53,7 @@ color: D7BDFF
 colorTo: D7BDFF
 layer: 110
 circle: true
-hollow: true
+hollow: false
 progress: recoil
 }
 {
