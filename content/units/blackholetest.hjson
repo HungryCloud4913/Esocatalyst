@@ -98,8 +98,8 @@ tri: true
 hollow: false
 triLength: 14
 triLengthTo: 0
-color: F6F0FF
-colorTo: F6F0FF
+color: E8F1F5
+colorTo: E8F1F5
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
