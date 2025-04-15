@@ -48,7 +48,7 @@ type: ShapePart
   x: 0
   y: 0
 radius: 5
-radiusTo: 3
+radiusTo: 0
 color: D7BDFF
 colorTo: D7BDFF
 layer: 110
@@ -78,7 +78,7 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 17
+triLength: 14
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
@@ -96,7 +96,7 @@ haloRadTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 14
+triLength: 11
 triLengthTo: 0
 color: E8F1F5
 colorTo: E8F1F5
