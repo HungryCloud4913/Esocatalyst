@@ -33,7 +33,7 @@ weapons: [
             }
             inaccuracy: 0
             recoil: 10
-            shootSound: weirdblast
+            shootSound: click
             shootEffect: none
              bullet: {
 }
@@ -73,12 +73,12 @@ progress: recoil
 type: HaloPart
   x: 0
   y: 0
-haloRadius: 4
+haloRadius: 0
 haloRadTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 9
+triLength: 12
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
