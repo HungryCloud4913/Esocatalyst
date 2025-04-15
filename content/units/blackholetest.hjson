@@ -64,7 +64,7 @@ radius: 4
 radiusTo: 0
 color: 000000ff
 colorTo: 000000ff
-layer: 109
+layer: 110.5
 circle: true
 hollow: false
 progress: recoil
@@ -75,10 +75,10 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-layer: 110
+layer: 111
 tri: true
 hollow: false
-triLength: 12
+triLength: 20
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
