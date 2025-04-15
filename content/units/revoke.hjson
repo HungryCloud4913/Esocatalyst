@@ -586,15 +586,33 @@ progress: recoil
 type: HaloPart
   x: 0
   y: -3
-haloRadius: 4
+haloRadius: 0
 haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 9
+triLength: 14
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: -3
+haloRadius: 0
+haloRadTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 11
+triLengthTo: 0
+color: FFFFFF
+colorTo: FFFFFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
