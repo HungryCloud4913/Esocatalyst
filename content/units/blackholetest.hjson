@@ -10,13 +10,14 @@ rotate: true
 rotateSpeed: 1.1
 targetair: true
 faceTarget: false
+lowAltitude: true
 immunities: [
 burning,
 melting
 ]
 weapons: [
 {
-                name: revoke-railgun
+                name: e
                 mirror: false
                 top: true
                 alternate: true
@@ -45,7 +46,7 @@ parts: [
 {
 type: ShapePart
   x: 0
-  y: -3
+  y: 0
 radius: 5
 radiusTo: 0
 color: D7BDFF
@@ -58,7 +59,7 @@ progress: recoil
 {
 type: ShapePart
   x: 0
-  y: -3
+  y: 0
 radius: 4
 radiusTo: 0
 color: 000000ff
@@ -71,7 +72,7 @@ progress: recoil
 {
 type: HaloPart
   x: 0
-  y: -3
+  y: 0
 haloRadius: 4
 haloRadTo: 0
 layer: 112
