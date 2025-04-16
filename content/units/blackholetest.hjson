@@ -50,7 +50,7 @@ type: ShapePart
 radius: 5
 radiusTo: 0
 color: D7BDFF
-colorTo: 0D0310
+colorTo: 000000ff
 layer: 110
 circle: true
 hollow: false
@@ -63,7 +63,7 @@ type: ShapePart
 radius: 4
 radiusTo: 0
 color: 000000ff
-colorTo: 0D0310
+colorTo: 000000ff
 layer: 111
 circle: true
 hollow: false
@@ -88,7 +88,7 @@ progress: recoil
   layer: 110
   tri: true
   color:  D7BDFF
-  colorTo: 0D0310
+  colorTo: 000000ff
   progress: recoil
   }
 {
@@ -103,7 +103,7 @@ hollow: false
 triLength: 16
 triLengthTo: 0
 color: D7BDFF
-colorTo: 0D0310
+colorTo: 000000ff
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
@@ -121,7 +121,7 @@ hollow: false
 triLength: 13
 triLengthTo: 0
 color: FFFFFF
-colorTo: 0D0310
+colorTo: 000000ff
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
