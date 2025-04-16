@@ -626,6 +626,8 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
+radius: 1.5
+radiusTo: 0
 layer: 112
 tri: true
 hollow: false
