@@ -69,42 +69,47 @@ circle: true
 hollow: false
 progress: recoil
 }
-{
-type: HaloPart
+ {
+  type: ShapePart
+  sides: 3
+    layer: 110
+  hollow: false
+  radius: 5
+  radiusTo: 0
+  color: D7BDFF
+  colorTo: D7BDFF
+  progress: recoil
   x: 0
-  y: 0
-haloRadius: 0
-haloRadTo: 8
-layer: 110
-tri: true
-hollow: false
-triLength: 10
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-progress: recoil
+  y: +60
 }
-{
-type: HaloPart
-  x: 0
-  y: 0
-haloRadius: 0
-haloRadTo: 0
-layer: 110
-tri: true
-hollow: false
-triLength: 14
-triLengthTo: 0
-color: D7BDFF
-colorTo: D7BDFF
-haloRotation: 90
-haloRotateSpeed: 0
-shapes: 2
-progress: recoil
-}
+/////
+    {
+      type: ShapePart
+      sides: 4
+      radius: 2
+      strokeTo: 1
+      stroke: 0
+      color: ff6d46
+      hollow: true
+      progress: warmup
+      layer: 110
+    }
+    {
+  type: HaloPart
+  shapes: 4
+  haloRotateSpeed: -1.8
+  haloRotation: 45
+  triLength: 0
+  triLengthTo: 2
+  haloRadius: 16
+  layer: 110
+  tri: true
+  radius: 8
+  color: f3e979
+  shapeRotation: 180
+  y: -32
+  }
+/////
 {
 type: HaloPart
   x: 0
