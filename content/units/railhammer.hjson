@@ -329,7 +329,7 @@ type: HaloPart
   y: +60
 haloRadius: 0
 haloRadTo: 0
-radius: 2
+radius: 1.5
 radiusTo: 0
 layer: 112
 tri: true
