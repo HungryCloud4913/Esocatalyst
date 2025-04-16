@@ -92,13 +92,13 @@ progress: recoil
 {
 type: HaloPart
   x: 0
-  y: +60
+  y: 0
 haloRadius: 0
 haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 15
+triLength: 16
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
