@@ -92,13 +92,13 @@ progress: recoil
   haloRotation: 90
   shapeRotation: 0
   triLength: 3
-  haloRadius: 4
+  haloRadius: 3
   haloRadTo: 0
   radius: 8
   radiusTo: 0
   triLength: 5
   triLengthTo: 0
-  layer: 110
+  layer: 109
   tri: true
   color:  D7BDFF
   progress: recoil
