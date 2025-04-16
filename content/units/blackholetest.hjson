@@ -94,10 +94,13 @@ progress: recoil
   triLength: 3
   haloRadius: 4
   haloRadTo: 0
+  radius: 8
+  radiusTo: 0
+  triLength: 5
+  triLengthTo: 0
   layer: 110
   tri: true
-  radius: 8
-  color: f3e979
+  color:  D7BDFF
   progress: recoil
   }
 /////
