@@ -299,8 +299,6 @@ progress: recoil
   haloRadTo: 0
   radius: 8
   radiusTo: 0
-  triLength: 5
-  triLengthTo: 0
   layer: 110
   tri: true
   color:  D7BDFF
@@ -315,6 +313,8 @@ haloRadius: 0
 haloRadTo: 0
 layer: 110
 tri: true
+  radius: 8
+  radiusTo: 0
 hollow: false
 triLength: 16
 triLengthTo: 0
