@@ -327,8 +327,10 @@ progress: recoil
 type: HaloPart
   x: 0
   y: +60
-haloRadius: 10
+haloRadius: 0
 haloRadTo: 0
+radius: 8
+radiusTo: 0
 layer: 112
 tri: true
 hollow: false
