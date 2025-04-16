@@ -262,7 +262,7 @@ parts: [
 {
 type: ShapePart
   x: 0
-  y: +60
+  y: 0
 radius: 5
 radiusTo: 0
 color: D7BDFF
@@ -275,7 +275,7 @@ progress: recoil
 {
 type: ShapePart
   x: 0
-  y: +60
+  y: 0
 radius: 4
 radiusTo: 0
 color: 000000ff
@@ -285,16 +285,36 @@ circle: true
 hollow: false
 progress: recoil
 }
+    {
+  type: HaloPart
+  shapes: 2
+  x: 0
+  y: 0
+  haloRotateSpeed: 0
+  haloRotation: 90
+  shapeRotation: 0
+  triLength: 3
+  haloRadius: 3
+  haloRadTo: 0
+  radius: 8
+  radiusTo: 0
+  triLength: 5
+  triLengthTo: 0
+  layer: 110
+  tri: true
+  color:  D7BDFF
+  progress: recoil
+  }
 {
 type: HaloPart
   x: 0
-  y: +60
+  y: 0
 haloRadius: 0
 haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 14
+triLength: 16
 triLengthTo: 0
 color: D7BDFF
 colorTo: D7BDFF
@@ -306,13 +326,13 @@ progress: recoil
 {
 type: HaloPart
   x: 0
-  y: +60
+  y: 0
 haloRadius: 0
 haloRadTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 11
+triLength: 13
 triLengthTo: 0
 color: FFFFFF
 colorTo: FFFFFF
