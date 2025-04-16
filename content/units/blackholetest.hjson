@@ -26,7 +26,7 @@ weapons: [
                 x: 0
                 y: 0
                 shootY: +25
-                reload: 10
+                reload: 100
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -76,8 +76,7 @@ progress: recoil
       x: 0
       y: 0
       radius: 20
-      strokeTo: 1
-      stroke: 0
+      stroke: 1
       color: ff6d46
       hollow: true
       progress: recoil
@@ -88,10 +87,9 @@ progress: recoil
   shapes: 4
   x: 0
   y: 0
-  haloRotateSpeed: -1.8
+  haloRotateSpeed: 0
   haloRotation: 45
-  triLength: 0
-  triLengthTo: 2
+  triLength: 2
   haloRadius: 16
   layer: 110
   tri: true
