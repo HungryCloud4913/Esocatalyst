@@ -78,6 +78,7 @@ progress: recoil
   haloRotation: 90
   shapeRotation: 0
   triLength: 3
+  triLengthTo: 0
   haloRadius: 3
   haloRadTo: 0
   radius: 8
