@@ -76,6 +76,7 @@ progress: recoil
       x: 0
       y: 0
       radius: 20
+      radiusTo: 0
       stroke: 1
       color: ff6d46
       hollow: true
@@ -88,14 +89,15 @@ progress: recoil
   x: 0
   y: 0
   haloRotateSpeed: 0
-  haloRotation: 45
+  haloRotation: 0
+  shapeRotation: 0
   triLength: 2
-  haloRadius: 16
+  haloRadius: 11
+  haloRadTo: 0
   layer: 110
   tri: true
   radius: 8
   color: f3e979
-  shapeRotation: 0
   progress: recoil
   }
 /////
