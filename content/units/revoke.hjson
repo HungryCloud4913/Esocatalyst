@@ -590,14 +590,12 @@ progress: recoil
   haloRotateSpeed: 0
   haloRotation: 90
   shapeRotation: 0
-  triLength: 3
+  triLength: 5
   triLengthTo: 0
   haloRadius: 3
   haloRadTo: 0
   radius: 8
   radiusTo: 0
-  triLength: 5
-  triLengthTo: 0
   layer: 110
   tri: true
   color:  D7BDFF
