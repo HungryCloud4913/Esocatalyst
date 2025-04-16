@@ -85,14 +85,14 @@ progress: recoil
     }
     {
   type: HaloPart
-  shapes: 4
+  shapes: 2
   x: 0
   y: 0
   haloRotateSpeed: 0
   haloRotation: 0
   shapeRotation: 0
   triLength: 2
-  haloRadius: 11
+  haloRadius: 5
   haloRadTo: 0
   layer: 110
   tri: true
