@@ -1,5 +1,5 @@
 type: naval
-name: Rolus
+name: Hexanchus
 description: A ramming boat that uses a leech beeam to attack enemy targets and regain health.
 health: 250
 hitSize: 10
@@ -30,7 +30,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
-name: rolus-ram
+name: hexanchus-ram
 top: false
 shootSound: none
 reload: 1
