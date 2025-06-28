@@ -122,16 +122,16 @@ shoot: {
       +3, +3, -1,
       ]
   shots: 1
-  scl: 8
-  mag: 8
+  scl: 1
+  mag: 1
     }
 bullet: {
 
     type: LightningBulletType
     lightningColor: A477DE
-    lightningLength: 40
+    lightningLength: 5
     damage: 175
-    lightning: 5
+    lightning: 1
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 10
