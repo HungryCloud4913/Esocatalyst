@@ -1,5 +1,5 @@
 type: naval
-name: Scetu
+name: carcharodon
 description: A ramming boat that attacks enemy targets with a large exposive missile launcher, alternating lancer cannons and a repeating small autocannon.
 health: 10000
 hitSize: 37
@@ -31,7 +31,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
-name: scetu-ram
+name: carcharodon-ram
 top: false
 shootSound: none
 reload: 1
@@ -56,7 +56,7 @@ bullet: {
 }
 }
 {
-name: scetu-ram2
+name: carcharodon-ram2
 top: false
 shootSound: none
 reload: 1
@@ -81,7 +81,7 @@ bullet: {
 }
 }
 {
-                name: scetu-cannon
+                name: carcharodon-cannon
                 mirror: false
                 top: true
                 rotate: true
