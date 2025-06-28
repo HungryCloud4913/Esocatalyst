@@ -88,12 +88,12 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-radius: 6
+radius: 5
 radiusTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 30
+triLength: 60
 triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
