@@ -24,8 +24,8 @@ shootSound: none
     alwaysShooting: true
     controllable: false
 x: 0
+y: 0
 mirror: false
-shootY: 0
 shootCone: 10
 shoot: {
   type: ShootBarrel
@@ -42,13 +42,13 @@ bullet: {
 
     type: LightningBulletType
     lightningColor: A477DE
-    lightningLength: 1
+    lightningLength: 0.2
     damage: 175
     lightning: 1
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 10
-        lightningLength: 1
+        lightningLength: 0.2
         damage: 20
         lightningColor: A477DE
         lifetime: 24
