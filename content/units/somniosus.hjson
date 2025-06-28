@@ -160,16 +160,16 @@ bullet: {
                 y: +20
                 reload: 30
                 shoot: {
-                    shots: 5
+                    shots: 2
                     shotDelay: 2
             }
             inaccuracy: 4
             recoil: 2
-            shootSound: shoot
+            shootSound: artillery
             shootEffect: none
             bullet: {
-                type: SolidBulletType
-                damage: 4
+                type: ArtilleryBulletType
+                damage: 12
                 speed: 2.25
                 lifetime: 75
                 knockback: 0
