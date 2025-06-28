@@ -93,8 +93,14 @@ bullet: {
                 y: -25
                 reload: 250
                 shoot: {
-                    shots: 2
-                    shotDelay: 10
+  type: ShootBarrel
+  barrels: [
+      -3, +4, 0,
+      0, +4, 0,
+      +3, +4, 0,
+      ]
+                    shots: 10
+                    shotDelay: 1.5
             }
             inaccuracy: 2
             recoil: 6
@@ -102,16 +108,18 @@ bullet: {
             shootEffect: none
             bullet: {
                 type: MissileBulletType
-                damage: 115
+                damage: 32
                 speed: 3.5
 		sprite: missile-large
-                lifetime: 115
+		weaveMag: 16
+		weaveScl: 16
+                lifetime: 100
                 knockback: 0
                 pierce: true
 		backColor: 665C9F
 		frontColor: FFFFFF
-                width: 15
-                length: 25
+                width: 5
+                length: 15
         trailLength: 10
         trailColor: bf92f9
 		fragOnHit: true
