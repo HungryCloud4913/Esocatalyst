@@ -56,7 +56,7 @@ progress: recoil
   triLengthTo: 0
   haloRadius: 10
   haloRadTo: 0
-  radius: 30
+  radius: 25
   radiusTo: 0
   layer: 110
   tri: true
