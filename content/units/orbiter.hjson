@@ -107,13 +107,13 @@ progress: recoil
 weapons: [
 {
 reload: 0.1
-shootSound: techloop
+shootSound: none
     alwaysShooting: true
     controllable: false
 x: 0
 mirror: false
-shootY: 40
-shootCone: 180
+shootY: 0
+shootCone: 10
 shoot: {
   type: ShootBarrel
   barrels: [
@@ -135,8 +135,8 @@ bullet: {
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 10
-        lightningLength: 20
-        damage: 300
+        lightningLength: 2
+        damage: 20
         lightningColor: A477DE
         lifetime: 24
         hitEffect: hitLancer
@@ -144,7 +144,7 @@ bullet: {
         status: electrified
         statusDuration: 5
         hittable: false
-        healPercent: 1.6
+        healPercent: 0
         collidesTeam: true
           }
     hitEffect: hitLancer
