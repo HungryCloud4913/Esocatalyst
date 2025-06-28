@@ -12,8 +12,11 @@ targetair: true
 faceTarget: false
 lowAltitude: true
 drawCell: false
+        engineOffset: 0
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+		engines: []
 parts: [
-
 ///Black Hole
 {
 type: ShapePart
