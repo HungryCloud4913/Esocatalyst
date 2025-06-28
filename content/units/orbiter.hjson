@@ -16,5 +16,93 @@ drawCell: false
         engineColor: D7BDFF
         engineColorInner: FFFFFF
 		engines: []
+parts: [
+
+///Black Hole
+{
+type: ShapePart
+  x: 0
+  y: +60
+radius: 5
+radiusTo: 0
+color: D7BDFF
+colorTo: 000000ff
+layer: 110
+circle: true
+hollow: false
+progress: recoil
+}
+{
+type: ShapePart
+  x: 0
+  y: +60
+radius: 4
+radiusTo: 0
+color: 000000ff
+colorTo: 000000ff
+layer: 111
+circle: true
+hollow: false
+progress: recoil
+}
+    {
+  type: HaloPart
+  shapes: 2
+  x: 0
+  y: +60
+  haloRotateSpeed: 0
+  haloRotation: 90
+  shapeRotation: 0
+  triLength: 5
+  triLengthTo: 0
+  haloRadius: 3
+  haloRadTo: 0
+  radius: 8
+  radiusTo: 0
+  layer: 110
+  tri: true
+  color:  D7BDFF
+  colorTo: 000000ff
+  progress: recoil
+  }
+{
+type: HaloPart
+  x: 0
+  y: +60
+haloRadius: 0
+haloRadTo: 0
+layer: 110
+tri: true
+hollow: false
+triLength: 16
+triLengthTo: 0
+color: D7BDFF
+colorTo: 000000ff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: +60
+haloRadius: 0
+haloRadTo: 0
+radius: 1.5
+radiusTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 13
+triLengthTo: 0
+color: FFFFFF
+colorTo: 000000ff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+]
 weapons: [
 ]
