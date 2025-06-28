@@ -18,7 +18,6 @@ drawCell: false
 		engines: []
 weapons: [
 {
-name: orbiter
 reload: 0.1
 shootSound: none
     alwaysShooting: true
@@ -26,7 +25,7 @@ shootSound: none
 x: 0
 y: 0
 mirror: false
-shootCone: 10
+shootCone: 360
 shoot: {
   type: ShootBarrel
   barrels: [
