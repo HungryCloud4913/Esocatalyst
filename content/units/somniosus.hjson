@@ -1,5 +1,5 @@
 type: naval
-name: Raporanus
+name: somniosus
 description: A ramming boat that destroys enemy targets with powerful alternating explsoive missile launchers, alternating heavy lancer cannons and a quick burst fire autocannon.
 health: 22500
 hitSize: 55
@@ -57,7 +57,7 @@ bullet: {
 }
 }
 {
-name: raporanus-ram2
+name: somniosus-ram2
 top: false
 shootSound: none
 reload: 1
@@ -83,7 +83,7 @@ bullet: {
 }
 }
 {
-                name: raporanus-cannon
+                name: somniosus-cannon
                 mirror: true
                 alternate: true
                 top: true
@@ -122,7 +122,7 @@ bullet: {
             }
  }
 {
-                name: raporanus-lance-weapon
+                name: somniosus-lance-weapon
                 mirror: true
                 alternate: true
                 top: true
