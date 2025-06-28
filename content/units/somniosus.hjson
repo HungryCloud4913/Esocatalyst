@@ -102,7 +102,7 @@ bullet: {
                     shots: 10
                     shotDelay: 1.5
             }
-            inaccuracy: 0.7
+            inaccuracy: 3
             recoil: 3
             shootSound: missile
             shootEffect: none
