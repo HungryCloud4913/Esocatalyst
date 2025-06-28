@@ -18,7 +18,7 @@ drawCell: false
 		engines: []
 weapons: [
 {
-reload: 100
+reload: 101
 alwaysShooting: true
 shootSound: none
 x: 0
@@ -57,7 +57,7 @@ bullet: {
       }
 }
 {
-reload: 67
+reload: 82
 alwaysShooting: true
 shootSound: none
 x: 0
