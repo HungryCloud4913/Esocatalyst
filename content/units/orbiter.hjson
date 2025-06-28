@@ -93,7 +93,7 @@ radiusTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 20
+triLength: 30
 triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
