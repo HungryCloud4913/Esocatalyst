@@ -42,13 +42,13 @@ bullet: {
 
     type: LightningBulletType
     lightningColor: A477DE
-    lightningLength: 5
+    lightningLength: 1
     damage: 175
     lightning: 1
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 10
-        lightningLength: 2
+        lightningLength: 1
         damage: 20
         lightningColor: A477DE
         lifetime: 24
