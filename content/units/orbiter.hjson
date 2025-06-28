@@ -31,7 +31,7 @@ shoot: {
   type: ShootBarrel
   barrels: [
 -20, 0, 0,
--, 0, 0,
+0, 0, 0,
 +20, 0, 0,
       ]
   shots: 1
