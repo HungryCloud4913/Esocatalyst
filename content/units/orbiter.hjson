@@ -22,7 +22,7 @@ parts: [
 type: ShapePart
   x: 0
   y: 0
-radius: 30
+radius: 20
 radiusTo: 0
 color: D7BDFF
 colorTo: 000000ff
@@ -35,7 +35,7 @@ progress: recoil
 type: ShapePart
   x: 0
   y: 0
-radius: 34
+radius: 25
 radiusTo: 0
 color: 000000ff
 colorTo: 000000ff
