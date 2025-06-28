@@ -52,11 +52,11 @@ progress: recoil
   haloRotateSpeed: 0
   haloRotation: 90
   shapeRotation: 0
-  triLength: 15
+  triLength: 20
   triLengthTo: 0
   haloRadius: 10
   haloRadTo: 0
-  radius: 25
+  radius: 27
   radiusTo: 0
   layer: 110
   tri: true
