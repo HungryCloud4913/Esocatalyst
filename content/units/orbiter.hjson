@@ -73,7 +73,7 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 160
+triLength: 30
 triLengthTo: 0
 color: D7BDFF
 colorTo: 000000ff
@@ -88,12 +88,12 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-radius: 7
+radius: 6
 radiusTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 15
+triLength: 20
 triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
