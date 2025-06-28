@@ -22,7 +22,7 @@ parts: [
 {
 type: ShapePart
   x: 0
-  y: +60
+  y: 0
 radius: 5
 radiusTo: 0
 color: D7BDFF
@@ -35,7 +35,7 @@ progress: recoil
 {
 type: ShapePart
   x: 0
-  y: +60
+  y: 0
 radius: 4
 radiusTo: 0
 color: 000000ff
@@ -49,7 +49,7 @@ progress: recoil
   type: HaloPart
   shapes: 2
   x: 0
-  y: +60
+  y: 0
   haloRotateSpeed: 0
   haloRotation: 90
   shapeRotation: 0
@@ -68,7 +68,7 @@ progress: recoil
 {
 type: HaloPart
   x: 0
-  y: +60
+  y: 0
 haloRadius: 0
 haloRadTo: 0
 layer: 110
@@ -86,7 +86,7 @@ progress: recoil
 {
 type: HaloPart
   x: 0
-  y: +60
+  y: 0
 haloRadius: 0
 haloRadTo: 0
 radius: 1.5
