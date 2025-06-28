@@ -107,10 +107,10 @@ bullet: {
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: shoot
+            shootSound: missile
             shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: MissileBulletType
                 damage: 11
                 speed: 2
                 lifetime: 50
