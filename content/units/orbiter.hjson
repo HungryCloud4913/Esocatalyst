@@ -105,4 +105,50 @@ progress: recoil
 }
 ]
 weapons: [
+{
+reload: 0.1
+shootSound: techloop
+    alwaysShooting: true
+    controllable: false
+x: 0
+mirror: false
+shootY: 40
+shootCone: 180
+shoot: {
+  type: ShootBarrel
+  barrels: [
+      -3, +3, +1,
+      0, +3, 0,
+      +3, +3, -1,
+      ]
+  shots: 1
+  scl: 8
+  mag: 8
+    }
+bullet: {
+
+    type: LightningBulletType
+    lightningColor: A477DE
+    lightningLength: 40
+    damage: 175
+    lightning: 5
+    lightningType: {
+        type: LightningBulletType
+        lightningLengthRand: 10
+        lightningLength: 20
+        damage: 300
+        lightningColor: A477DE
+        lifetime: 24
+        hitEffect: hitLancer
+        despawnEffect: none
+        status: electrified
+        statusDuration: 5
+        hittable: false
+        healPercent: 1.6
+        collidesTeam: true
+          }
+    hitEffect: hitLancer
+    shootEffect: hitLancer
+      }
+}
 ]
