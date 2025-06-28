@@ -95,16 +95,16 @@ bullet: {
                 shoot: {
   type: ShootBarrel
   barrels: [
-      -3, +4, 0,
-      0, +4, 0,
-      +3, +4, 0,
+      -3, +3, 0,
+      0, +3, 0,
+      +3, +3, 0,
       ]
                     shots: 10
                     shotDelay: 1.5
             }
-            inaccuracy: 2
-            recoil: 6
-            shootSound: artillery
+            inaccuracy: 0.7
+            recoil: 3
+            shootSound: missile
             shootEffect: none
             bullet: {
                 type: MissileBulletType
@@ -169,7 +169,7 @@ bullet: {
                 reload: 30
                 shoot: {
                     shots: 2
-                    shotDelay: 2
+                    shotDelay: 3
             }
             inaccuracy: 4
             recoil: 2
@@ -183,7 +183,7 @@ bullet: {
                 knockback: 0
 		backColor: 665C9F
 		frontColor: FFFFFF
-                width: 7
-                length: 3
+                width: 9
+                length: 6
             }
  }]
