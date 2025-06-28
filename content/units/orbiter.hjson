@@ -20,7 +20,7 @@ weapons: [
 {
 reload: 101
 alwaysShooting: true
-shootSound: none
+shootSound: flame2
 x: 0
 y: 0
 mirror: false
@@ -59,7 +59,7 @@ bullet: {
 {
 reload: 82
 alwaysShooting: true
-shootSound: none
+shootSound: flame2
 x: 0
 y: 0
 mirror: false
