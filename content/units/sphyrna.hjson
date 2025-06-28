@@ -1,5 +1,5 @@
 type: naval
-name: Dylos
+name: Sphyrna
 description: A ramming boat that shoots alternating dual fire weapons and an explosive 6 round missile launcher at enemy targets.
 health: 720
 hitSize: 23
@@ -31,7 +31,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
-name: dylos-ram
+name: sphyrna-ram
 top: false
 shootSound: none
 reload: 1
