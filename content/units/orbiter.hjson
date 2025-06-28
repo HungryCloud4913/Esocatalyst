@@ -70,12 +70,12 @@ parts: [
 {
 type: ShapePart
   x: 0
-  y: +1.5
+  y: 0
 radius: 17
 top: true
-radiusTo: 0
+radiusTo: 17
 color: D7BDFF
-colorTo: 000000ff
+colorTo: D7BDFF
 layer: 150
 circle: true
 hollow: false
@@ -85,7 +85,7 @@ type: ShapePart
   x: 0
   y: 0
 radius: 15
-radiusTo: 0
+radiusTo: 15
 color: 000000ff
 colorTo: 000000ff
 layer: 111
@@ -101,15 +101,15 @@ hollow: false
   haloRotation: 90
   shapeRotation: 0
   triLength: 19
-  triLengthTo: 0
+  triLengthTo: 19
   haloRadius: 10
-  haloRadTo: 0
+  haloRadTo: 10
   radius: 27
-  radiusTo: 0
+  radiusTo: 27
   layer: 110
   tri: true
   color:  D7BDFF
-  colorTo: 000000ff
+  colorTo: D7BDFF
   }
 {
 type: HaloPart
@@ -118,13 +118,14 @@ type: HaloPart
 haloRadius: 0
 haloRadTo: 0
 radius: 13
+radiusTo: 13
 layer: 110
 tri: true
 hollow: false
 triLength: 55
-triLengthTo: 0
+triLengthTo: 55
 color: D7BDFF
-colorTo: 000000ff
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
@@ -136,14 +137,14 @@ type: HaloPart
 haloRadius: 0
 haloRadTo: 0
 radius: 4
-radiusTo: 0
+radiusTo: 4
 layer: 112
 tri: true
 hollow: false
 triLength: 50
-triLengthTo: 0
+triLengthTo: 50
 color: FFFFFF
-colorTo: 000000ff
+colorTo: FFFFFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
