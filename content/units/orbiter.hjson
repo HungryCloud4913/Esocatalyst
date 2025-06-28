@@ -36,13 +36,13 @@ shoot: {
 bullet: {
     type: LightningBulletType
     lightningColor: D7BDFF
-    lightningLength: 5
+    lightningLength: 7
     damage: 20
     lightning: 1
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 1
-        lightningLength: 5
+        lightningLength: 7
         damage: 20
         lightningColor: D7BDFF
         lifetime: 24
@@ -75,13 +75,13 @@ shoot: {
 bullet: {
     type: LightningBulletType
     lightningColor: D7BDFF
-    lightningLength: 5
+    lightningLength: 9
     damage: 20
     lightning: 1
     lightningType: {
         type: LightningBulletType
         lightningLengthRand: 1
-        lightningLength: 5
+        lightningLength: 9
         damage: 20
         lightningColor: D7BDFF
         lifetime: 24
