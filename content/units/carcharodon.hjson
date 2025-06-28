@@ -162,10 +162,10 @@ bullet: {
             }
             inaccuracy: 4
             recoil: 1
-            shootSound: shoot
+            shootSound: missile
             shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: MissileBulletType
                 damage: 3
                 speed: 2
                 lifetime: 50
@@ -174,5 +174,6 @@ bullet: {
 		frontColor: FFFFFF
                 width: 5.5
                 length: 2
+        trailColor: bf92f9
             }
  }]
