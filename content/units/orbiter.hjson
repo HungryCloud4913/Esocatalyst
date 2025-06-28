@@ -107,7 +107,7 @@ radius: 17
 top: true
 radiusTo: 17
 color: D7BDFF
-colorTo: 000000ff
+colorTo: D7BDFF
 layer: 110
 circle: true
 hollow: false
@@ -141,7 +141,7 @@ hollow: false
   layer: 110
   tri: true
   color:  D7BDFF
-colorTo: 000000ff
+colorTo: D7BDFF
   }
 {
 type: HaloPart
@@ -157,7 +157,7 @@ hollow: false
 triLength: 55
 triLengthTo: 55
 color: D7BDFF
-colorTo: 000000ff
+colorTo: D7BDFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
@@ -176,7 +176,7 @@ hollow: false
 triLength: 50
 triLengthTo: 50
 color: FFFFFF
-colorTo: 000000ff
+colorTo: FFFFFF
 haloRotation: 90
 haloRotateSpeed: 0
 shapes: 2
