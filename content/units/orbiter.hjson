@@ -71,12 +71,13 @@ parts: [
 {
 type: ShapePart
   x: 0
-  y: 0
+  y: +1.5
 radius: 17
+top: true
 radiusTo: 0
 color: D7BDFF
 colorTo: 000000ff
-layer: 110
+layer: 150
 circle: true
 hollow: false
 progress: recoil
