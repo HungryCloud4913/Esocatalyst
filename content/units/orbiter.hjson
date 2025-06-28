@@ -22,7 +22,7 @@ parts: [
 type: ShapePart
   x: 0
   y: 0
-radius: 5
+radius: 50
 radiusTo: 0
 color: D7BDFF
 colorTo: 000000ff
@@ -35,7 +35,7 @@ progress: recoil
 type: ShapePart
   x: 0
   y: 0
-radius: 4
+radius: 40
 radiusTo: 0
 color: 000000ff
 colorTo: 000000ff
@@ -52,9 +52,9 @@ progress: recoil
   haloRotateSpeed: 0
   haloRotation: 90
   shapeRotation: 0
-  triLength: 5
+  triLength: 50
   triLengthTo: 0
-  haloRadius: 3
+  haloRadius: 30
   haloRadTo: 0
   radius: 8
   radiusTo: 0
@@ -73,7 +73,7 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 16
+triLength: 160
 triLengthTo: 0
 color: D7BDFF
 colorTo: 000000ff
@@ -88,12 +88,12 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-radius: 1.5
+radius: 15
 radiusTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 13
+triLength: 130
 triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
