@@ -119,5 +119,7 @@ bullet: {
 		frontColor: FFFFFF
                 width: 5
                 length: 6
+        trailLength: 2
+        trailColor: bf92f9
             }
  }]
