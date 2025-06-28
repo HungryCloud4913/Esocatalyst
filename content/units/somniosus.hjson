@@ -126,7 +126,7 @@ bullet: {
         trailColor: bf92f9
 		fragOnHit: true
 		fragBullets: 3
-		splashDamageRadius: 50
+		splashDamageRadius: 10
 		splashDamage: 50
 		hitEffect: blastExplosion
             }
