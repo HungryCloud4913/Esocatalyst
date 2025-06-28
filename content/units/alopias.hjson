@@ -1,5 +1,5 @@
 type: naval
-name: Aratus
+name: Alopias
 description: A ramming boat that shoots alternating leach beams and small homing missiles at enemy targets.
 health: 250
 hitSize: 16
@@ -31,7 +31,7 @@ rotateEffect: true
 }
 ]
 weapons: [{
-name: aratus-ram
+name: alopias-ram
 top: false
 shootSound: none
 reload: 1
