@@ -1,5 +1,5 @@
 type: naval
-name: carcharodon
+name: Carcharodon
 description: A ramming boat that attacks enemy targets with a large exposive missile launcher, alternating lancer cannons and a repeating small autocannon.
 health: 10000
 hitSize: 37
