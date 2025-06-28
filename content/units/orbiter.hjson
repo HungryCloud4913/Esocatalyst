@@ -30,9 +30,9 @@ shootCone: 10
 shoot: {
   type: ShootBarrel
   barrels: [
--20, 0, 0,
-0, 0, 0,
-+20, 0, 0,
+   -20, 0, 0,
+   0, 0, 0,
+   +20, 0, 0,
       ]
   shots: 1
   scl: 1
