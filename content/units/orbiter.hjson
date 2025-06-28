@@ -56,7 +56,7 @@ progress: recoil
   triLengthTo: 0
   haloRadius: 10
   haloRadTo: 0
-  radius: 30
+  radius: 29
   radiusTo: 0
   layer: 110
   tri: true
@@ -70,10 +70,11 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
+radius: 10
 layer: 110
 tri: true
 hollow: false
-triLength: 50
+triLength: 53
 triLengthTo: 0
 color: D7BDFF
 colorTo: 000000ff
@@ -88,12 +89,12 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
-radius: 5
+radius: 4
 radiusTo: 0
 layer: 112
 tri: true
 hollow: false
-triLength: 45
+triLength: 50
 triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
