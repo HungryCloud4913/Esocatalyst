@@ -46,7 +46,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 45
+	damage: 10
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
@@ -72,7 +72,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 50
+	damage: 10
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
