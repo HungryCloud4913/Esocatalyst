@@ -18,7 +18,7 @@ drawCell: false
 		engines: []
 weapons: [
 {
-reload: 0.1
+reload: 100
 shootSound: none
     alwaysShooting: true
     controllable: false
