@@ -17,52 +17,6 @@ drawCell: false
         engineColorInner: FFFFFF
 		engines: []
 weapons: [
-{
-reload: 1
-shootSound: none
-    alwaysShooting: true
-    controllable: false
-x: 0
-y: 0
-mirror: false
-shootCone: 360
-shoot: {
-  type: ShootBarrel
-  barrels: [
-   -20, 0, 0,
-   0, 0, 0,
-   +20, 0, 0,
-      ]
-  shots: 1
-  scl: 1
-  mag: 1
-    }
-bullet: {
-
-    type: LightningBulletType
-    lightningColor: A477DE
-    lightningLength: 0.2
-    damage: 175
-    lightning: 1
-    lightningType: {
-        type: LightningBulletType
-        lightningLengthRand: 10
-        lightningLength: 0.2
-        damage: 20
-        lightningColor: A477DE
-        lifetime: 24
-        hitEffect: hitLancer
-        despawnEffect: none
-        status: electrified
-        statusDuration: 5
-        hittable: false
-        healPercent: 0
-        collidesTeam: true
-          }
-    hitEffect: hitLancer
-    shootEffect: hitLancer
-      }
-}
 ]
 
 parts: [
