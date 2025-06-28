@@ -95,9 +95,9 @@ bullet: {
                 shoot: {
   type: ShootBarrel
   barrels: [
-      -3, +3, +7,
+      -3, +3, +3,
       0, +3, 0,
-      +3, +3, -7,
+      +3, +3, -3,
       ]
                     shots: 10
                     shotDelay: 1.5
