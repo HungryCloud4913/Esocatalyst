@@ -111,7 +111,7 @@ bullet: {
                 damage: 32
                 speed: 3.5
 		sprite: missile-large
-                homingPower: 0.05
+                homingPower: 0.001
 		homingRange: 15
 		weaveMag: 16
 		weaveScl: 16
