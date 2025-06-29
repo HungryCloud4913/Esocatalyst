@@ -1,4 +1,5 @@
 type: flying
+controller: FlyingAI
 health: 3200
 hitSize: 23
 flying: true
