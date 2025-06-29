@@ -39,13 +39,13 @@ lowAltitude: true
 		]
 weapons: [{
                 name: arraign-wings
-                mirror: true
+                mirror: false
                 top: true
-                alternate: true
+                alternate: false
                 rotate: false
 		rotateSpeed: 3.4
-                x: +11
-                y: -3
+                x: 0
+                y: 0
                 reload: 40
                 shoot: {
                   type: ShootBarrel
