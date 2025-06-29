@@ -31,7 +31,7 @@ lowAltitude: true
 		  }
 		  {
 			x: 0
-			y: -9
+			y: -10.5
 			radius: 5
 			rotation: -90
 		        trailLength: 10
@@ -43,6 +43,7 @@ weapons: [{
                 top: false
                 alternate: false
                 rotate: false
+                layerOffset: -0.0001
 		rotateSpeed: 3.4
                 x: 0
                 y: 0
@@ -57,7 +58,7 @@ weapons: [{
                     shotDelay: 0
             }
             inaccuracy: 0.5
-            recoil: 2
+            recoil: 4
             shootSound: thermoblast
             shootEffect: none
             bullet: {
