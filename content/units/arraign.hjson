@@ -70,8 +70,8 @@ weapons: [{
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                width: 20
-                height: 30
+                width: 10
+                height: 20
 		splashDamageRadius: 10
 		splashDamage: 35
 		hitEffect: blastExplosion
