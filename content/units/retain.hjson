@@ -29,8 +29,8 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: +6
-    y: -6
+    x: +7
+    y: -7
     phase: 150
     mirror: true
 }
@@ -41,8 +41,8 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: +6
-    y: +6
+    x: +7
+    y: +7
     phase: 150
     mirror: true
 }
