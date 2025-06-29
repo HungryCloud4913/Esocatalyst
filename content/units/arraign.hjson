@@ -40,7 +40,7 @@ lowAltitude: true
 weapons: [{
                 name: arraign-wings
                 mirror: false
-                top: true
+                top: false
                 alternate: false
                 rotate: false
 		rotateSpeed: 3.4
