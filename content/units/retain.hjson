@@ -26,7 +26,6 @@ parts: [
     type: HoverPart
     color: A477DE
     radius: 10
-    rotation: 45
     sides: 8
     layerOffset: -0.0001
     x: +6
@@ -38,7 +37,6 @@ parts: [
     type: HoverPart
     color: A477DE
     radius: 10
-    rotation: 45
     sides: 8
     layerOffset: -0.0001
     x: +6
