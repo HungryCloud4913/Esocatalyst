@@ -1,4 +1,5 @@
-type: mech
+template: TankUnitType
+type: tank
 health: 3650
 hitSize: 23
 hovering: true
@@ -24,14 +25,15 @@ parts: [
   {
     type: HoverPart
     color: A477DE
-    radius: 8.5
-    rotation: 45
+    radius: 10
+    rotation: 0
     sides: 4
     layerOffset: -0.0001
-    x: +3
+    x: +5
     y: -2.5
     phase: 150
-  }
+    mirror: true
+}
 ]
 weapons: [
 {
