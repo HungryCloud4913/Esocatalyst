@@ -26,11 +26,11 @@ parts: [
     type: HoverPart
     color: A477DE
     radius: 10
-    rotation: 0
+    rotation: 45
     sides: 4
     layerOffset: -0.0001
-    x: +5
-    y: -2.5
+    x: +6
+    y: -3.5
     phase: 150
     mirror: true
 }
