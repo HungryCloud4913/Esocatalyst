@@ -1,5 +1,5 @@
 type: flying
-controller: FlyingAI
+controller: flareAI
 health: 3200
 hitSize: 23
 flying: true
