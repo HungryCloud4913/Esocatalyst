@@ -59,6 +59,7 @@ weapons: [{
                 x: 0
                 y: -7
                 reload: 70
+                shooty: +8
                 shoot: {
                   type: ShootAlternate
                     shots: 1
