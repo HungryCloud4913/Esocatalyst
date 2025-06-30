@@ -28,7 +28,6 @@ drownTimeMultiplier: 5
 legGroupSize: 3
 baseLegStraightness: 0.5
 rippleScale: 0.8
-legGroupSize: 4
 rippleScale: 3.1
 targetair: true
 faceTarget: false
