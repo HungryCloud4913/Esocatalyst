@@ -104,7 +104,6 @@ parts: [
       mirror: false
       under: true
 }
-parts: [
     {
       type: RegionPart
       suffix: -barrell
