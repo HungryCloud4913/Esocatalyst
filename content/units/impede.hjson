@@ -53,18 +53,6 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: +17
-    y: -5
-    phase: 150
-    mirror: true
-}
-  {
-    type: HoverPart
-    color: A477DE
-    radius: 10
-    sides: 4
-    rotation: 45
-    layerOffset: -0.0001
     x: +15
     y: -15
     phase: 150
