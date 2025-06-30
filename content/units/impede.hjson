@@ -102,7 +102,7 @@ weapons: [{
                 homing: false
                 speed: 9
 		sprite: missile-large
-                lifetime: 30
+                lifetime: 20
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
@@ -198,7 +198,6 @@ effects: [
 			speed: 5
                         homingPower: 0.05
 			damage: 75
-			splashDamage: 75
 			weaveMag: 5
 			weaveScl: 10
 			lifetime: 16
