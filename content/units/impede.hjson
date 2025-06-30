@@ -191,7 +191,8 @@ effects: [
       }
 		fragOnHit: true
 		fragBullets: 5
-                shootCone: 120
+                fragRandomSpread: 0
+                fragSpread: 15
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5
