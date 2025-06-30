@@ -54,7 +54,7 @@ weapons: [{
                 alternate: false
                 rotate: true
                 recoils: 2
-                layerOffset: +0.0002
+                layerOffset: 1
 		rotateSpeed: 1.2
                 x: 0
                 y: -7
@@ -93,27 +93,25 @@ weapons: [{
 parts: [
     {
       type: RegionPart
-      suffix: -barrell
+      suffix: -barrelr
       y: +6
       moveY: -5
       moveX: 0
       progress: recoil
       recoilIndex: 0
       mirror: false
-      under: false
-      layerOffset: +0.0001
+      under: true
 }
     {
       type: RegionPart
-      suffix: -barrelr
+      suffix: -barrell
       y: +6
       moveY: -5
       moveX: 0
       progress: recoil
       recoilIndex: 1
       mirror: false
-      under: false
-      layerOffset: +0.0001
+      under: true
 }
 ]
 }
