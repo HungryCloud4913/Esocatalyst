@@ -29,7 +29,7 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: 7
+    x: +7
     y: -7
     phase: 150
     mirror: true
@@ -41,7 +41,7 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: 7
+    x: +7
     y: +7
     phase: 150
     mirror: true
@@ -73,7 +73,7 @@ weapons: [{
                 damage: 70
                 homing: false
                 speed: 7
-		            sprite: missile-large
+		sprite: missile-large
                 lifetime: 35
                 knockback: 0
                 backColor: D7BDFF
