@@ -1,0 +1,51 @@
+template: TankUnitType
+type: tank
+health: 95040
+hitSize: 45
+hovering: true
+hoverable: true
+lowAltitude: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+groundLayer: 60
+flying: false
+speed: 0.6
+accel: 0.8
+drag: 0.3
+armor: 4
+rotateSpeed: 2
+outline: false
+outlineColor: 2D2F39
+targetaAir: true
+faceTarget: false
+treadFrames: 18
+parts: [
+  {
+    type: HoverPart
+    color: A477DE
+    radius: 10
+    sides: 4
+    rotation: 45
+    layerOffset: -0.0001
+    x: +7
+    y: -7
+    phase: 150
+    mirror: true
+}
+  {
+    type: HoverPart
+    color: A477DE
+    radius: 10
+    sides: 4
+    rotation: 45
+    layerOffset: -0.0001
+    x: +7
+    y: +7
+    phase: 150
+    mirror: true
+}
+]
+weapons: [
+]
