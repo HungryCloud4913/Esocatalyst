@@ -98,6 +98,7 @@ effects: [
         effect: shootTitan
          color: D7BDF
 }
+]
                }
 parts: [
     {
