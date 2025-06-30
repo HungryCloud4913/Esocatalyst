@@ -5,7 +5,7 @@ hitSize: 45
 hovering: true
 hoverable: true
 lowAltitude: true
-crushDamage: 2
+crushDamage: 5
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
