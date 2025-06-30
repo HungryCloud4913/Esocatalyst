@@ -71,23 +71,23 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 70
+                damage: 200
                 homing: false
-                speed: 7
+                speed: 9
 		sprite: missile-large
-                lifetime: 35
+                lifetime: 30
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
                 width: 10
                 height: 20
 		splashDamageRadius: 10
-		splashDamage: 35
+		splashDamage: 85
 		hitEffect: blastExplosion
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
 		hitColor: D7BDFF
-        trailLength: 9
+        trailLength: 10
         trailColor: D7BDFF
                }
 parts: [
