@@ -44,7 +44,7 @@ weapons: [{
                 alternate: true
                 rotate: true
 		rotateSpeed: 3.4
-                x: +11
+                x: -11
                 y: -3
                 reload: 25
                 shoot: {
