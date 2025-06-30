@@ -13,7 +13,7 @@ groundLayer: 60
 flying: false
 speed: 0.95
 accel: 0.8
-drag: 0.3
+drag: 0.1
 armor: 4
 rotateSpeed: 2
 outline: false
