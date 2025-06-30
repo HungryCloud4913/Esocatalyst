@@ -11,7 +11,7 @@ mechSideSway: 0
 mechStride: 0
 groundLayer: 60
 flying: false
-speed: 0.6
+speed: 0.95
 accel: 0.8
 drag: 0.3
 armor: 4
