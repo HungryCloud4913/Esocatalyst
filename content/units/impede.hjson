@@ -98,7 +98,7 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 350
+                damage: 550
                 homing: false
                 speed: 9
 		sprite: missile-large
@@ -108,7 +108,7 @@ weapons: [{
                 frontColor: D7BDFF
                 width: 10
                 height: 20
-		splashDamageRadius: 10
+		splashDamageRadius: 20
 		splashDamage: 85
 		hitEffect: blastExplosion
 		shootEffect: shootBigColor
@@ -190,22 +190,20 @@ effects: [
         ]
       }
 		fragOnHit: true
-		fragBullets: 5
+		fragBullets: 15
                 fragRandomSpread: 0
-                fragSpread: 15
+                fragSpread: 5
 		fragBullet: {
 			type: BasicBulletType
-			speed: 5
+			speed: 6
                         homingPower: 0.05
-			damage: 75
+			damage: 150
 			weaveMag: 5
 			weaveScl: 10
-			lifetime: 16
+			lifetime: 23
 			trailWidth: 2.1
 			width: 9
 			height: 9
-			shrinkX: 0.05
-			shrinkY: 0.05
 			sprite: large-bomb
 			despawnEffect: none
 			despawnHit: true
