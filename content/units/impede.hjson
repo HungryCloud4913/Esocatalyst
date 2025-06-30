@@ -66,7 +66,7 @@ weapons: [{
                     firstShotDelay: 1
             }
             inaccuracy: 0.5
-            recoil: 1
+            recoil: 2
             shootSound: thermoblast
             shootEffect: none
             bullet: {
