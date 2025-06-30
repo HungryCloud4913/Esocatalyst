@@ -123,6 +123,7 @@ parts: [
       recoilIndex: 0
       mirror: false
       under: true
+    layerOffset: -0.0001
 }
     {
       type: RegionPart
@@ -145,6 +146,7 @@ parts: [
       recoilIndex: 1
       mirror: false
       under: true
+    layerOffset: -0.0001
 }
 ]
 }
