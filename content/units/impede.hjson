@@ -41,7 +41,7 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: +7
+    x: 7
     y: +7
     phase: 150
     mirror: true
@@ -57,7 +57,7 @@ weapons: [{
                 layerOffset: +0.0002
 		rotateSpeed: 1.2
                 x: 0
-                y: 0
+                y: -15
                 reload: 40
                 shoot: {
                   type: ShootAlternate
