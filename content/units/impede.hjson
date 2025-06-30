@@ -64,7 +64,6 @@ weapons: [{
                   type: ShootAlternate
                     shots: 1
                     shotDelay: 0
-                    firstShotDelay: 1
             }
             inaccuracy: 0.5
             recoil: 2
