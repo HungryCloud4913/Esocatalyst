@@ -61,10 +61,6 @@ weapons: [{
                 reload: 40
                 shoot: {
                   type: ShootAlternate
-                    barrels:[
-                    7, 0, 0,
-                    -7, 0, 0,
-                    ]
                     shots: 1
                     shotDelay: 0
             }
