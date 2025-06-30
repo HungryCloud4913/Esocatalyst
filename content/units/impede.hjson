@@ -124,54 +124,6 @@ effects: [
 }
 ]
 }
-parts: [
-    {
-      type: RegionPart
-      suffix: -barrelr
-      y: +6
-      moveY: -7
-      moveX: 0
-      progress: recoil
-      recoilIndex: 0
-      mirror: false
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -barrelr2
-      y: +6
-      moveY: -12
-      moveX: 0
-      progress: recoil
-      recoilIndex: 0
-      mirror: false
-      under: true
-    layerOffset: -0.0001
-}
-    {
-      type: RegionPart
-      suffix: -barrell
-      y: +6
-      moveY: -7
-      moveX: 0
-      progress: recoil
-      recoilIndex: 1
-      mirror: false
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -barrell2
-      y: +6
-      moveY: -12
-      moveX: 0
-      progress: recoil
-      recoilIndex: 1
-      mirror: false
-      under: true
-    layerOffset: -0.0001
-}
-]
  hitEffect: {
       type: MultiEffect
       effects: [
@@ -264,5 +216,53 @@ parts: [
                         trailColor: D7BDFF
 			}
 }
+parts: [
+    {
+      type: RegionPart
+      suffix: -barrelr
+      y: +6
+      moveY: -7
+      moveX: 0
+      progress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -barrelr2
+      y: +6
+      moveY: -12
+      moveX: 0
+      progress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+    layerOffset: -0.0001
+}
+    {
+      type: RegionPart
+      suffix: -barrell
+      y: +6
+      moveY: -7
+      moveX: 0
+      progress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -barrell2
+      y: +6
+      moveY: -12
+      moveX: 0
+      progress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+    layerOffset: -0.0001
+}
+]
 }
 ]
