@@ -98,7 +98,7 @@ weapons: [{
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 200
+                damage: 350
                 homing: false
                 speed: 9
 		sprite: missile-large
@@ -123,7 +123,6 @@ effects: [
         effect: shootTitan
 }
 ]
-}
 }
 parts: [
     {
@@ -173,5 +172,97 @@ parts: [
     layerOffset: -0.0001
 }
 ]
+ hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        sizeTo: 17
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lifetime: 12
+        strokeFrom: 10
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 10
+        lifetime: 70
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 10
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: false
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        interp: circleOut
+        sizeInterp: pow10In
+        particles: 12
+        length: 80
+        lifetime: 80
+        cone: 20
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: D7BDFF
+        colorTo: D7BDFF
+        lenFrom: 8
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 50
+        length: 80
+        interp: pow10Out
+        sizeInterp: pow5In
+        randLength: true
+        cone: 20
+        }
+        ]
+      }
+		fragOnHit: true
+		fragBullets: 5
+                shootCone: 120
+		fragBullet: {
+			type: BasicBulletType
+			speed: 5
+                        homingPower: 0.05
+			damage: 75
+			splashDamage: 75
+			weaveMag: 5
+			weaveScl: 10
+			lifetime: 16
+			trailWidth: 2.1
+			width: 9
+			height: 9
+			shrinkX: 0.05
+			shrinkY: 0.05
+			sprite: large-bomb
+			despawnEffect: none
+			despawnHit: true
+			backColor: D7BDFF
+			frontColor: D7BDFF
+		        hitColor: D7BDFF
+                        trailLength: 5
+                        trailColor: D7BDFF
+			}
+}
 }
 ]
