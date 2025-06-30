@@ -59,11 +59,12 @@ weapons: [{
                 x: 0
                 y: -7
                 reload: 70
-                shooty: +15
                 shoot: {
-                  type: ShootAlternate
-                    shots: 1
-                    shotDelay: 0
+        type: ShootBarrel
+        barrels: [
+          +7, +15, 0
+          -7, +15, 0
+            ]
                     firstShotDelay: 30
             }
             inaccuracy: 0.5
