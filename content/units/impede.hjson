@@ -47,5 +47,73 @@ parts: [
     mirror: true
 }
 ]
-weapons: [
+weapons: [{
+                name: impede-weapon
+                mirror: false
+                top: true
+                alternate: false
+                rotate: true
+                recoils: 2
+                layerOffset: +0.0002
+		rotateSpeed: 1.2
+                x: 0
+                y: 0
+                reload: 40
+                shoot: {
+                  type: ShootAlternate
+                    barrels:[
+                    +7, 0, 0,
+                    -7, 0, 0,
+                    ]
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.5
+            recoil: 4
+            shootSound: thermoblast
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 70
+                homing: false
+                speed: 7
+		            sprite: missile-large
+                lifetime: 35
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                width: 10
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 35
+		hitEffect: blastExplosion
+		shootEffect: shootBigColor
+		smokeEffect: shootSmokeDisperse
+		hitColor: D7BDFF
+        trailLength: 9
+        trailColor: D7BDFF
+               }
+parts: [
+    {
+      type: RegionPart
+      suffix: -barrelr
+      moveY: -5
+      moveX: 0
+      progress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+}
+parts: [
+    {
+      type: RegionPart
+      suffix: -barrell
+      moveY: -5
+      moveX: 0
+      progress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+}
+}
 ]
