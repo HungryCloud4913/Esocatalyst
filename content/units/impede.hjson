@@ -59,7 +59,7 @@ weapons: [{
                 x: 0
                 y: -7
                 reload: 70
-                shooty: +8
+                shooty: +15
                 shoot: {
                   type: ShootAlternate
                     shots: 1
@@ -68,7 +68,7 @@ weapons: [{
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: thermoblast
+            shootSound: largethermo
             shootEffect: none
             bullet: {
                 type: BasicBulletType
