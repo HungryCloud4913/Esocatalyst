@@ -29,7 +29,7 @@ parts: [
     sides: 4
     rotation: 45
     layerOffset: -0.0001
-    x: +7
+    x: 7
     y: -7
     phase: 150
     mirror: true
@@ -62,7 +62,7 @@ weapons: [{
                 shoot: {
                   type: ShootAlternate
                     barrels:[
-                    +7, 0, 0,
+                    7, 0, 0,
                     -7, 0, 0,
                     ]
                     shots: 1
