@@ -62,8 +62,8 @@ weapons: [{
                 shoot: {
         type: ShootBarrel
         barrels: [
-          +7, +15, 0
-          -7, +15, 0
+          +5, +20, 0
+          -5, +20, 0
             ]
                     firstShotDelay: 30
             }
@@ -97,10 +97,9 @@ weapons: [{
 effects: [
 {
         effect: shootTitan
-         color: D7BDF
 }
 ]
-               }
+}
 }
 parts: [
     {
