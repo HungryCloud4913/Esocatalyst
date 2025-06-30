@@ -64,10 +64,12 @@ weapons: [{
                   type: ShootAlternate
                     shots: 1
                     shotDelay: 0
+                    firstShotDelay: 30
             }
             inaccuracy: 0.5
             recoil: 2
-            shootSound: largethermo
+            chargeSound: largethermo
+            shootSound: none
             shootEffect: none
             bullet: {
                 type: BasicBulletType
@@ -89,6 +91,13 @@ weapons: [{
 		hitColor: D7BDFF
         trailLength: 10
         trailColor: D7BDFF
+  shootEffect: {
+    type: MultiEffect
+effects: [
+{
+        effect: shootTitan
+         color: D7BDF
+}
                }
 parts: [
     {
