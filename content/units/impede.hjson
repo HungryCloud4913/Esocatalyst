@@ -200,7 +200,7 @@ effects: [
 			damage: 150
 			weaveMag: 5
 			weaveScl: 10
-			lifetime: 23
+			lifetime: 40
 			trailWidth: 2.1
 			width: 9
 			height: 9
