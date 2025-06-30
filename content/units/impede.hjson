@@ -95,7 +95,7 @@ parts: [
       type: RegionPart
       suffix: -barrelr
       y: +6
-      moveY: -5
+      moveY: -7
       moveX: 0
       progress: recoil
       recoilIndex: 0
@@ -106,7 +106,7 @@ parts: [
       type: RegionPart
       suffix: -barrell
       y: +6
-      moveY: -5
+      moveY: -7
       moveX: 0
       progress: recoil
       recoilIndex: 1
