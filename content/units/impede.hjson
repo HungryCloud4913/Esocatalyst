@@ -100,6 +100,7 @@ effects: [
 }
 ]
                }
+}
 parts: [
     {
       type: RegionPart
