@@ -58,14 +58,15 @@ weapons: [{
 		rotateSpeed: 1.2
                 x: 0
                 y: -7
-                reload: 40
+                reload: 70
                 shoot: {
                   type: ShootAlternate
                     shots: 1
                     shotDelay: 0
+                    firstShotDelay: 1
             }
             inaccuracy: 0.5
-            recoil: 4
+            recoil: 1
             shootSound: thermoblast
             shootEffect: none
             bullet: {
