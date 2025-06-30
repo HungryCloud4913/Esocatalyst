@@ -4,7 +4,7 @@ flying: false
 armor: 42
 speed: 0.6
 outlineColor: 2D2F39
-outlineRadius: 4
+outlineRadius: 5
 singleTarget: false
 hitSize: 87
 rotate: true
