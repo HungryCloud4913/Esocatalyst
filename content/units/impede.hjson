@@ -15,7 +15,7 @@ speed: 0.6
 accel: 0.8
 drag: 0.1
 armor: 30
-rotateSpeed: 0.5
+rotateSpeed: 1.1
 outline: false
 outlineColor: 2D2F39
 targetaAir: true
@@ -57,7 +57,7 @@ weapons: [{
                 layerOffset: +0.0002
 		rotateSpeed: 1.2
                 x: 0
-                y: -15
+                y: -7
                 reload: 40
                 shoot: {
                   type: ShootAlternate
@@ -92,23 +92,27 @@ weapons: [{
 parts: [
     {
       type: RegionPart
-      suffix: -barrelr
+      suffix: -barrell
+      y: +6
       moveY: -5
       moveX: 0
       progress: recoil
       recoilIndex: 0
       mirror: false
-      under: true
+      under: false
+      layerOffset: +0.0001
 }
     {
       type: RegionPart
-      suffix: -barrell
+      suffix: -barrelr
+      y: +6
       moveY: -5
       moveX: 0
       progress: recoil
       recoilIndex: 1
       mirror: false
-      under: true
+      under: false
+      layerOffset: +0.0001
 }
 ]
 }
