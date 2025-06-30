@@ -137,7 +137,7 @@ parts: [
 }
     {
       type: RegionPart
-      suffix: -barrell
+      suffix: -barrell2
       y: +6
       moveY: -8
       moveX: 0
