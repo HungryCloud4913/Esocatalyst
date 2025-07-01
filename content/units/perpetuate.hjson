@@ -36,9 +36,13 @@ shootY: +11
 top: true
 mirror: true
 alternate: true
-reload: 50
+reload: 80
 recoil: 0.5
 layerOffset: +0.004
+shoot: {
+shots: 2
+shotDelay: 3.5
+}
  parts: [
     {
       type: RegionPart
