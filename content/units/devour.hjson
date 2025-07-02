@@ -28,6 +28,9 @@ legSplashRange: 24
 drownTimeMultiplier: 3
 legGroupSize: 4
 rippleScale: 0.8
+immunities: [
+  burning
+  ]
 parts: [{
   type: RegionPart
   mirror: true
