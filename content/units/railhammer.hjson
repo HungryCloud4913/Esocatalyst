@@ -12,7 +12,8 @@ targetair: true
 faceTarget: true
 lowAltitude: true
 immunities: [
-  burning
+  burning,
+melting
   ]
         engineOffset: 0
         engineColor: D7BDFF
