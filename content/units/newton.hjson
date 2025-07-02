@@ -21,10 +21,10 @@ lowAltitude: true
 
 parts: [{
   type: RegionPart
-  mirror: true
+  mirror: false
   under: false
-  moveX: -27
-  moveY: -5
+  moveX: -5
+  moveY: 0
   moveRot: 35
   suffix: -leftarm
   progress: warmup
@@ -33,10 +33,10 @@ parts: [{
     }
   {
   type: RegionPart
-  mirror: true
+  mirror: false
   under: false
-  moveX: +27
-  moveY: -5
+  moveX: +5
+  moveY: 0
   moveRot: -25
   suffix: -rightarm
   progress: warmup
@@ -53,18 +53,19 @@ shootY: 0
 top: true
 mirror: false
 alternate: false
-reload: 100
+reload: 30000
 recoil: 0
 shoot: {
   shots: 1
   shotDelay: 0
-  firstShotDelay: 150
+  firstShotDelay: 300
     }
 rotate: false
 rotateSpeed: 0
 shootSound: launchLycor
 shootCone: 120
 bullet: {
+  killShooter: true
   spawnUnit: newton-missile
   shootEffect: {
       type: MultiEffect
