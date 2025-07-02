@@ -18,7 +18,15 @@ lowAltitude: true
         engineOffset: 7
         engineColor: D7BDFF
         engineColorInner: FFFFFF
-
+engines: [
+		  {
+			x: 0
+			y: -10
+			radius: 7
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
 
 parts: [
   {
