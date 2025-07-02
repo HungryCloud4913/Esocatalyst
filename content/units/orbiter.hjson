@@ -133,17 +133,17 @@ bullet: {
   hitEffect: none
   shootEffect: none
   despawnEffect: none
-                bulletInterval: 60
-                intervalRandomSpread: 0
+                bulletInterval: 5
+                intervalRandomSpread: 360
                 intervalAngle: 0
                 intervalBullet: {
- type: BasicBulletType
+                type: BasicBulletType
                 damage: 150
                 homing: true
                 homingPower: 0.05
 		homingRange: 100
                 speed: 7
-		            sprite: missile-large
+		sprite: missile-large
                 lifetime: 70
                 knockback: 0
                 backColor: D7BDFF
