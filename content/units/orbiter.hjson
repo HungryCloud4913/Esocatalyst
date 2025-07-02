@@ -125,6 +125,8 @@ shake: 5
 recoil: 0
 bullet: {
   type: BasicBulletType
+  pierce: true
+  pierceCap: 1000
   speed: 0
   damage: 0
   lifetime: 10
@@ -138,6 +140,8 @@ bullet: {
                 intervalAngle: 0
                 intervalBullet: {
                 type: BasicBulletType
+                pierce: true
+                pierceCap: 5
                 damage: 750
                 homing: true
                 homingPower: 0.075
