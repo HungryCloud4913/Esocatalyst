@@ -140,11 +140,11 @@ bullet: {
                 type: BasicBulletType
                 damage: 150
                 homing: true
-                homingPower: 0.05
+                homingPower: 0.075
 		homingRange: 1000
-                speed: 7
+                speed: 8
 		sprite: missile-large
-                lifetime: 70
+                lifetime: 100
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
@@ -152,7 +152,7 @@ bullet: {
                 height: 20
 		hitEffect: none
                 despawnEffect: none
-                shootSound: shootSmite
+                soundsEffect: shootSmite
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
 		hitColor: D7BDFF
