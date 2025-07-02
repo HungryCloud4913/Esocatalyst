@@ -7,7 +7,7 @@ hitSize: 29
 rotateSpeed: 0.2
 controller: MissileAI
 lowAltitude: true
-lifetime: 25
+lifetime: 30
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -106,7 +106,7 @@ weapons: [{
 type: ExplosionBulletType
 keepVelocity: false
 splashDamage: 7300
-splashDamageRadius: 100
+splashDamageRadius: 60
 status: melting
   }
 }]
