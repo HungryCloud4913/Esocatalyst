@@ -97,18 +97,17 @@ bullet: {
 }
 
 {
-name: xenoid
-reload: 300
+reload: 100
 shoot: {
   type: ShootBarrel
   barrels: [
-      +140, +12, 0,
-      -132, +60, 0,
-      +166, -112, 0,
-      +148, -68, 0,
-      -158, +129, 0,
-      +132, +45, 0,
-      -173, -68, 0,
+      +100, +12, 0,
+      -92, +60, 0,
+      +126, -112, 0,
+      +108, -68, 0,
+      -118, +129, 0,
+      +92, +45, 0,
+      -133, -68, 0,
       ]
   shots: 3
   shotDelay: 0
@@ -130,6 +129,145 @@ bullet: {
   height: 1
   width: 1
   shootEffect: none
+                bulletInterval: 180
+                intervalRandomSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+ type: BasicBulletType
+  speed: 0
+  damage: 0
+  lifetime: 50
+  height: 1
+  width: 1
+  shootEffect: none
+parts: [
+{
+type: ShapePart
+  x: 0
+  y: 0
+radius: 5
+radiusTo: 0
+color: D7BDFF
+colorTo: 000000ff
+layer: 110
+circle: true
+hollow: false
+progress: recoil
+}
+{
+type: ShapePart
+  x: 0
+  y: 0
+radius: 4
+radiusTo: 0
+color: 000000ff
+colorTo: 000000ff
+layer: 111
+circle: true
+hollow: false
+progress: recoil
+}
+    {
+  type: HaloPart
+  shapes: 2
+  x: 0
+  y: 0
+  haloRotateSpeed: 0
+  haloRotation: 90
+  shapeRotation: 0
+  triLength: 5
+  triLengthTo: 0
+  haloRadius: 3
+  haloRadTo: 0
+  radius: 8
+  radiusTo: 0
+  layer: 110
+  tri: true
+  color:  D7BDFF
+  colorTo: 000000ff
+  progress: recoil
+  }
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+layer: 110
+tri: true
+hollow: false
+triLength: 16
+triLengthTo: 0
+color: D7BDFF
+colorTo: 000000ff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+layer: 110
+tri: true
+hollow: false
+triLength: 16
+triLengthTo: 0
+color: D7BDFF
+colorTo: 000000ff
+haloRotation: 0
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+radius: 1.5
+radiusTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 13
+triLengthTo: 0
+color: FFFFFF
+colorTo: 000000ff
+haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+radius: 1.5
+radiusTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 13
+triLengthTo: 0
+color: FFFFFF
+colorTo: 000000ff
+haloRotation: 0
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+]
+}
+fragBullets: 1
+fragBullet: {
+}
   parts: [
 {
 type: ShapePart
@@ -201,6 +339,24 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
+layer: 110
+tri: true
+hollow: false
+triLength: 16
+triLengthTo: 0
+color: D7BDFF
+colorTo: 000000ff
+haloRotation: 0
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
 radius: 1.5
 radiusTo: 0
 layer: 112
@@ -211,6 +367,26 @@ triLengthTo: 0
 color: FFFFFF
 colorTo: 000000ff
 haloRotation: 90
+haloRotateSpeed: 0
+shapes: 2
+progress: recoil
+}
+{
+type: HaloPart
+  x: 0
+  y: 0
+haloRadius: 0
+haloRadTo: 0
+radius: 1.5
+radiusTo: 0
+layer: 112
+tri: true
+hollow: false
+triLength: 13
+triLengthTo: 0
+color: FFFFFF
+colorTo: 000000ff
+haloRotation: 0
 haloRotateSpeed: 0
 shapes: 2
 progress: recoil
