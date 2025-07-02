@@ -24,6 +24,20 @@ trailScl: 0.9
 trailColor: D7BDFF
 loopSound: missileTrail
 missileAccelTime: 2
+        engineOffset: 7
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+engines: [
+		  {
+			x: 0
+			y: -12
+			radius: 7
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+
+
 
 deathExplosionEffect: {
                 type: MultiEffect
