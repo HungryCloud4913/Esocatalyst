@@ -51,8 +51,8 @@ parts: [{
   under: false
   moveX: +5
   moveY: 0
-  moveRot: -bar
-  suffix: -rightarm
+  moveRot: -17.5
+  suffix: -bar
   progress: warmup
   weaponIndex: 0
   layerOffset: 0
