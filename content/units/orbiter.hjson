@@ -146,9 +146,9 @@ bullet: {
                 pierceCap: 5
                 damage: 750
                 homing: true
-                homingPower: 0.075
+                homingPower: 0.1
 		homingRange: 1000
-                speed: 8
+                speed: 9
 		sprite: missile-large
                 lifetime: 100
                 knockback: 0
