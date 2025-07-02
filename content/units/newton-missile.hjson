@@ -24,24 +24,6 @@ trailScl: 0.9
 trailColor: D7BDFF
 loopSound: missileTrail
 missileAccelTime: 2
-parts: [
-{
-  type: FlarePart
-  color1: D7BDFF
-  color2: ffffff
-  y: -2
-  followRotation: true
-  stroke: 3
-  radius: 0
-  radiusTo: 24
-  progress: {
-      type: life
-      op: curve
-      interp: slope
-        }
-  spinSpeed: 3
-}
-]
 weapons: [{
     name: missile-explode
       shootCone: 360
