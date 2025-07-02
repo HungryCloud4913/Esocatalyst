@@ -27,6 +27,9 @@ rippleScale: 1.4
 legMoveSpace: 5.1
 allowLegStep: false
 legPhysicsLayer: false
+immunities: [
+  burning
+  ]
 weapons: [
 {
 name: perpetuate-weapon
