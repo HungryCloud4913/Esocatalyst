@@ -200,7 +200,7 @@ effects: [
 			type: BasicBulletType
 			speed: 6
                         homingPower: 0.05
-			damage: 150
+			damage: 100
 			weaveMag: 5
 			weaveScl: 10
 			lifetime: 40
