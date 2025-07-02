@@ -15,7 +15,6 @@ immunities: [
   burning
   ]
 lowAltitude: true
-range: 250
         engineOffset: 7
         engineColor: D7BDFF
         engineColorInner: FFFFFF
@@ -74,7 +73,6 @@ parts: [
 weapons: [
 {
 name: missilekiller
-range: 250
 y: 0
 x: 0
 shootY: 0
