@@ -97,7 +97,7 @@ bullet: {
 }
 
 {
-reload: 100
+reload: 200
 rotate: true
 rotateSpeed: 100
 shoot: {
@@ -119,7 +119,7 @@ y: 0
 x: 0
 shootY: 0
 mirror: false
-shootSound: plasmaBoom
+shootSound: shortRayLycor
 top: false
 shake: 5
 recoil: 0
@@ -133,7 +133,7 @@ bullet: {
   hitEffect: none
   shootEffect: none
   despawnEffect: none
-                bulletInterval: 5
+                bulletInterval: 10
                 intervalRandomSpread: 360
                 intervalAngle: 0
                 intervalBullet: {
@@ -141,7 +141,7 @@ bullet: {
                 damage: 150
                 homing: true
                 homingPower: 0.05
-		homingRange: 100
+		homingRange: 1000
                 speed: 7
 		sprite: missile-large
                 lifetime: 70
@@ -152,6 +152,7 @@ bullet: {
                 height: 20
 		hitEffect: none
                 despawnEffect: none
+                shootSound: shootSmite
 		shootEffect: shootBigColor
 		smokeEffect: shootSmokeDisperse
 		hitColor: D7BDFF
