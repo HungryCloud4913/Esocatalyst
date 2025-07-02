@@ -44,8 +44,8 @@ weapons: [{
           }
 type: ExplosionBulletType
 keepVelocity: false
-splashDamage: 72
-splashDamageRadius: 40
+splashDamage: 7300
+splashDamageRadius: 100
 status: melting
   }
 }]
