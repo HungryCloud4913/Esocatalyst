@@ -29,7 +29,7 @@ parts: [{
   suffix: -leftarm
   progress: warmup
   weaponIndex: 0
-  layerOffset: -0.001
+  layerOffset: 0
     }
   {
   type: RegionPart
@@ -41,6 +41,8 @@ parts: [{
   suffix: -rightarm
   progress: warmup
   weaponIndex: 0
-  layerOffset: -0.001
+  layerOffset: 0
     }
+]
+weapons: [
 ]
