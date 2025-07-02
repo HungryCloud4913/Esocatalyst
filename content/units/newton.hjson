@@ -45,4 +45,38 @@ parts: [{
     }
 ]
 weapons: [
+{
+name: missilekiller
+y: 0
+x: 0
+shootY: 0
+top: true
+mirror: false
+alternate: false
+reload: 100
+recoil: 0
+shoot: {
+  shots: 1
+  shotDelay: 0
+  firstShotDelay: 150
+    }
+rotate: false
+rotateSpeed: 0
+shootSound: launchLycor
+shootCone: 120
+bullet: {
+  spawnUnit: newton-missile
+  shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor,{
+            type: WaveEffect
+            sizeTo: 10
+            colorTo: A477DE
+            lifetime: 10
+              }
+        ]
+              }
+    smokeEffect: shootBigSmoke2
+        }
+}
 ]
