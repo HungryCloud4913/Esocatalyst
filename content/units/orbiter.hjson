@@ -95,6 +95,41 @@ bullet: {
     shootEffect: hitLancer
       }
 }
+
+{
+name: xenoid
+reload: 300
+shoot: {
+  firstShotDelay: 90
+    }
+y: 0
+x: 0
+shootY: 48
+mirror: false
+shootSound: plasmaBoom
+top: false
+shake: 5
+recoil: 0
+bullet: {
+  type: BasicBulletType
+  parts: [
+{
+  type: FlarePart
+  color1: ee5a5a
+  color2: ffffff
+  spinSpeed: 2
+  sides: 2
+  radius: 32
+    }
+    ]
+  damage: 320
+  splashDamage: 2600
+  splashDamageRadius: 80
+  height: 16
+  width: 16
+  shootEffect: none
+    }
+}
 ]
 
 parts: [
