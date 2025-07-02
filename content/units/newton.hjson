@@ -1,0 +1,45 @@
+type: flying
+health: 4600
+hitSize: 33
+flying: true
+speed: 1.7
+accel: 0.05
+drag: 0.01
+armor: 36
+rotateSpeed: 3.25
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+immunities: [
+  burning
+  ]
+        engineOffset: 7
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+lowAltitude: true
+
+
+parts: [{
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: -27
+  moveY: -5
+  moveRot: 35
+  suffix: -leftarm
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+  {
+  type: RegionPart
+  mirror: true
+  under: false
+  moveX: +27
+  moveY: -5
+  moveRot: -25
+  suffix: -rightarm
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
