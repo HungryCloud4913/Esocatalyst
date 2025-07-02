@@ -12,6 +12,10 @@ targetair: true
 faceTarget: false
 lowAltitude: true
 drawCell: false
+immunities: [
+  burning,
+melting
+  ]
         engineOffset: 0
         engineColor: D7BDFF
         engineColorInner: FFFFFF
