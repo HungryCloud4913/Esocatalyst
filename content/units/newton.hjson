@@ -21,7 +21,32 @@ range: 250
         engineColorInner: FFFFFF
 
 
-parts: [{
+parts: [
+  {
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: 5
+  moveY: 0
+  moveRot: -17.5
+  suffix: -bar
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: 0
+    }
+  {
+  type: RegionPart
+  mirror: false
+  under: false
+  moveX: -5
+  moveY: 0
+  moveRot: 17.5
+  suffix: -bar
+  progress: warmup
+  weaponIndex: 0
+  layerOffset: 0
+    }
+{
   type: RegionPart
   mirror: false
   under: false
@@ -37,34 +62,10 @@ parts: [{
   type: RegionPart
   mirror: false
   under: false
-  moveX: +5
+  moveX: 5
   moveY: 0
   moveRot: -35
   suffix: -rightarm
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: 0
-    }
-  {
-  type: RegionPart
-  mirror: false
-  under: false
-  moveX: +5
-  moveY: 0
-  moveRot: -17.5
-  suffix: -bar
-  progress: warmup
-  weaponIndex: 0
-  layerOffset: 0
-    }
-  {
-  type: RegionPart
-  mirror: false
-  under: false
-  moveX: +5
-  moveY: 0
-  moveRot: +17.5
-  suffix: -bar
   progress: warmup
   weaponIndex: 0
   layerOffset: 0
