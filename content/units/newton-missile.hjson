@@ -24,6 +24,67 @@ trailScl: 0.9
 trailColor: D7BDFF
 loopSound: missileTrail
 missileAccelTime: 2
+
+deathExplosionEffect: {
+                type: MultiEffect
+                effects: [
+massiveExplosion
+scatheExplosion
+scatheLight
+{
+type: ParticleEffect
+colorFrom: D7BDFF
+colorTo: D7BDFF
+particles: 14
+length: 120
+sizeFrom: 16
+lifetime: 230
+interp: circleOut
+sizeInterp: pow5In
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: D7BDFF
+colorTo: D7BDFF
+particles: 14
+length: 120
+lenFrom: 16
+lenTo: 0
+strokeFrom: 3
+strokeTo: 3
+lifetime: 60
+interp: circleOut
+sizeInterp: pow5In
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: D7BDFF
+colorTo: D7BDFF
+particles: 20
+length: 120
+sizeFrom: 10
+lifetime: 200
+interp: circleOut
+sizeInterp: pow5In
+layer: 74
+}
+{
+type: ParticleEffect
+colorFrom: D7BDFF
+colorTo: D7BDFF
+particles: 24
+length: 120
+sizeFrom: 6
+lifetime: 180
+interp: circleOut
+sizeInterp: pow5In
+layer: 74
+}
+]
+          }
+
 weapons: [{
     name: missile-explode
       shootCone: 360
