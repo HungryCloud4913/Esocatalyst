@@ -110,8 +110,9 @@ shoot: {
       -53, +129, 0,
       +92, +45, 0,
       -72, -68, 0,
+      +52, +21, 0,
       ]
-  shots: 3
+  shots: 4
   shotDelay: 0
   firstShotDelay: 0
     }
