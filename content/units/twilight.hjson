@@ -14,6 +14,10 @@ faceTarget: true
         engineColor: D7BDFF
         engineColorInner: FFFFFF
 lowAltitude: true
+immunities: [
+  burning,
+melting
+  ]
 		engines: [
           {
 			x: 0
