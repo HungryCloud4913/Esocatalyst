@@ -14,10 +14,11 @@ fallSpeed: 200
 immunities: [
   burning
   ]
+lowAltitude: true
+range: 250
         engineOffset: 7
         engineColor: D7BDFF
         engineColorInner: FFFFFF
-lowAltitude: true
 
 
 parts: [{
