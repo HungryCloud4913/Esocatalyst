@@ -48,7 +48,7 @@ parts: [{
 weapons: [
 {
 name: missilekiller
-range: 500
+range: 250
 y: 0
 x: 0
 shootY: 0
