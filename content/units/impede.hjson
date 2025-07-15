@@ -2,8 +2,8 @@ template: TankUnitType
 type: tank
 health: 95040
 hitSize: 40
-hovering: true
-hoverable: true
+hovering: false
+hoverable: false
 lowAltitude: true
 crushDamage: 5
 shadowElevation: 0.1
