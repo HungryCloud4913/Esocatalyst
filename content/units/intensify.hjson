@@ -42,7 +42,7 @@ weapons: [{
                     shotDelay: 0.2
             }
             inaccuracy: 0
-            recoil: 5
+            recoil: 2
             shootSound: vibroblast2
             bullet: {
                 type: LaserBulletType
@@ -92,6 +92,17 @@ weapons: [{
           }
           ]
           }
+}
+parts: [
+    {
+      type: RegionPart
+      suffix: -piston
+      y: 0
+      moveY: -3
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
 }
 }
 ]
