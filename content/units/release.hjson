@@ -23,13 +23,13 @@ parts: [
   {
     type: HoverPart
     color: A477DE
-    radius: 10
+    radius: 14
     sides: 4
     layerOffset: -0.0001
-    x: +5
+    x: 0
     y: -5
     phase: 150
-    mirror: true
+    mirror: false
 }
   {
     type: HoverPart
