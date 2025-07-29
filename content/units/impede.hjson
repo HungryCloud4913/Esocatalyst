@@ -225,6 +225,7 @@ parts: [
       moveY: -7
       moveX: 0
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 0
       mirror: false
       under: true
@@ -236,6 +237,7 @@ parts: [
       moveY: -12
       moveX: 0
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 0
       mirror: false
       under: true
@@ -248,6 +250,7 @@ parts: [
       moveY: -7
       moveX: 0
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 1
       mirror: false
       under: true
@@ -259,6 +262,7 @@ parts: [
       moveY: -12
       moveX: 0
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 1
       mirror: false
       under: true
@@ -278,7 +282,7 @@ parts: [
 }
     {
       type: RegionPart
-      suffix: -pod1
+      suffix: -pod2
       y: 0
       moveY: +4
       moveX: -4
