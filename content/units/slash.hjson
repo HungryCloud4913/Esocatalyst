@@ -1,6 +1,6 @@
 type: mech
 health: 530
-hitSize: 12
+hitSize: 17
 outlineColor: 2D2F39
 shadowElevation: 0.1
 groundLayer: 60
