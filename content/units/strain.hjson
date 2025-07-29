@@ -35,7 +35,7 @@ weapons: [{
             shootEffect: none
              bullet: {
                 type: LaserBulletType
-                damage: 70
+                damage: 60
                 speed: 0
                 lifetime: 40
                 knockback: 0
