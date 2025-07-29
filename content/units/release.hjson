@@ -47,7 +47,7 @@ parts: [
 ]
 weapons: [
 {
-                name: release-weapon
+                name: release
                 mirror: false
                 alternate: false
                 top: true
@@ -59,8 +59,8 @@ weapons: [
                 shoot: {
   type: ShootBarrel
   barrels: [
-      0, +2, 15,
-      0, +2, -15,
+      0, +2, 5,
+      0, +2, -5,
       ]
   firstShotDelay: 0
   shots: 2
@@ -72,12 +72,11 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: BasicBulletType
-                damage: 160
-                recoil: 1.5
+                damage: 90
                 homing: false
                 speed: 6
                 sprite: large-bomb
-                lifetime: 60
+                lifetime: 25
                 knockback: 2
                 backColor: D7BDFF
 		shootEffect: shootSmallColor
