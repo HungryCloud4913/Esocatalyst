@@ -264,6 +264,30 @@ parts: [
       under: true
     layerOffset: -0.0001
 }
+    {
+      type: RegionPart
+      suffix: -pod1
+      y: 0
+      moveY: -4
+      moveX: -4
+      progress: recoil
+      heatProgress: recoil
+      heatColor: ABC9FF
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -pod1
+      y: 0
+      moveY: +4
+      moveX: -4
+      progress: recoil
+      heatProgress: recoil
+      heatColor: ABC9FF
+      mirror: false
+      under: true
+}
 ]
 }
 ]
