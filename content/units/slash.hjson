@@ -1,6 +1,6 @@
 type: mech
 health: 530
-hitSize: 11
+hitSize: 12
 outlineColor: 2D2F39
 shadowElevation: 0.1
 groundLayer: 60
@@ -17,11 +17,11 @@ weapons: [{
                 mirror: true
                 top: false
                 alternate: true
-                rotate: false
+                rotate: true
                 layerOffset: -0.0001
-    rotationLimit: 60
+                rotationLimit: 60
 		rotateSpeed: 3.4
-                x: +7
+                x: +10
                 y: 0
                 reload: 50
                 shoot: {
@@ -31,20 +31,21 @@ weapons: [{
             }
             inaccuracy: 0.5
             recoil: 4
-            shootSound: sapblast
+            shootSound: none
+            chargeSound: sapblast
             shootEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 55
                 homing: false
                 speed: 7
-		            sprite: missile-large
+		sprite: missile-large
                 lifetime: 20
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
-                width: 3
-                height: 5
+                width: 6
+                height: 8
 		splashDamageRadius: 10
 		splashDamage: 12
 		hitEffect: blastExplosion
