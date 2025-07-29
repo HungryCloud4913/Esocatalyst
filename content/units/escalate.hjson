@@ -118,6 +118,18 @@ weapons: [{
         trailLength: 7
         trailColor: D7BDFF
                }
+parts: [
+    {
+      type: RegionPart
+      suffix: -spines
+      y: 0
+      moveY: -4
+      moveX: +4
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
 }
   {
     alwaysShooting: true
