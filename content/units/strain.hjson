@@ -1,0 +1,86 @@
+type: mech
+health: 480
+hitSize: 12
+outlineColor: 2D2F39
+shadowElevation: 0.1
+groundLayer: 60
+canDrown: true
+targetAir: true
+faceTarget: true
+speed: 0.6
+accel: 0.5
+drag: 0.4
+rotateSpeed: 4.5
+armor: 7
+weapons: [{
+                name: strain-armweapon
+                mirror: true
+                top: false
+                alternate: true
+                rotate: true
+                layerOffset: -0.0001
+                rotationLimit: 60
+		rotateSpeed: 3.4
+                x: +10
+                y: 0
+                reload: 105
+                shoot: {
+                    firstShotDelay: 0
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0.5
+            recoil: 3
+            shootSound: sinusblast2
+            shootEffect: none
+             bullet: {
+                type: LaserBulletType
+                damage: 70
+                speed: 0
+                lifetime: 40
+                knockback: 0
+                pierce: true
+		colors: [8047BE, D7BDFF, F6F0FF]
+                width: 10
+                length: 45
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 5
+                height: 5
+        backColor: d1efff
+        frontColor: ffffff
+   despawnEffect: none
+        despawnHit: false
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          length: 10
+          sizeFrom: 3
+          cone: 40
+          interp: pow10Out
+          sizeInterp: pow10In
+          colorTo: D7BDFF
+          lifetime: 65
+          particles: 4
+          }
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 4
+          strokeTo: 0
+          lenFrom: 5
+          lenTo: 10
+          colorTo: D7BDFF
+          interp: pow10Out
+          sizeInterp: pow10In
+          particles: 4
+          cone: 40
+          }
+          ]
+          }
+}
+}
+]
