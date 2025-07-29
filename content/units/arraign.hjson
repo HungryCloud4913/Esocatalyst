@@ -53,6 +53,7 @@ parts: [
       mirror: false
       under: true
 }
+]
 weapons: [{
                 name: arraign-wings
                 mirror: false
