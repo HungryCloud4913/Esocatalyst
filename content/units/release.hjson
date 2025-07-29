@@ -1,0 +1,85 @@
+template: TankUnitType
+type: tank
+health: 3650
+hitSize: 23
+hovering: false
+hoverable: false
+lowAltitude: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+groundLayer: 60
+flying: false
+speed: 0.95
+accel: 0.8
+drag: 0.1
+armor: 4
+rotateSpeed: 2
+outline: false
+outlineColor: 2D2F39
+targetAir: true
+faceTarget: true
+treadFrames: 18
+parts: [
+  {
+    type: HoverPart
+    color: A477DE
+    radius: 10
+    sides: 4
+    rotation: 45
+    layerOffset: -0.0001
+    x: +5
+    y: -5
+    phase: 150
+    mirror: true
+}
+  {
+    type: HoverPart
+    color: A477DE
+    radius: 10
+    sides: 4
+    rotation: 45
+    layerOffset: -0.0001
+    x: +5
+    y: +5
+    phase: 150
+    mirror: true
+}
+]
+weapons: [
+{
+                name: release-weapon
+                mirror: false
+                alternate: false
+                top: true
+                rotate: false
+		rotateSpeed: 1.2
+                x: 0
+                y: 0
+                reload: 40
+                layerOffset: 1
+               shoot: {
+  type: ShootBarrel
+  barrels: [
+      -3.25, +4, 0,
+      ]
+  firstShotDelay: 0
+  shots: 1
+  shotDelay: 0
+    }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: bolt
+            shootEffect: none
+            bullet: {
+                type: LaserBulletType
+                pierceCap: 1
+                length: 160
+                width: 3
+               colors: [D7BDFF, D7BDFF, D7BDFF]
+                damage: 38
+                homing: false
+               }
+        }
+]
