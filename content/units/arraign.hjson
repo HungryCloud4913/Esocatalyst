@@ -90,8 +90,8 @@ parts: [
       type: RegionPart
       suffix: -pod
       y: 0
-      moveY: -4
-      moveX: -9
+      moveY: -2
+      moveX: -2
       progress: recoil
       heatProgress: recoil
       heatColor: ABC9FF
