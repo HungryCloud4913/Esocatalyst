@@ -25,7 +25,6 @@ parts: [
     color: A477DE
     radius: 10
     sides: 4
-    rotation: 45
     layerOffset: -0.0001
     x: +5
     y: -5
@@ -37,11 +36,21 @@ parts: [
     color: A477DE
     radius: 10
     sides: 4
-    rotation: 45
     layerOffset: -0.0001
     x: +5
     y: +5
     phase: 150
+    mirror: true
+}
+  {
+    type: HoverPart
+    color: A477DE
+    radius: 10
+    sides: 4
+    layerOffset: -0.0001
+    x: 0
+    y: 0
+    phase: 300
     mirror: true
 }
 ]
