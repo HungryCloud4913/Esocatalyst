@@ -21,7 +21,7 @@ weapons: [{
                 layerOffset: -0.0001
                 rotationLimit: 60
 		rotateSpeed: 3.4
-                x: +10
+                x: +9
                 y: 0
                 reload: 105
                 shoot: {
@@ -41,8 +41,8 @@ weapons: [{
                 knockback: 0
                 pierce: true
 		colors: [8047BE, D7BDFF, F6F0FF]
-                width: 10
-                length: 45
+                width: 15
+                length: 50
                 frontColor: D7BDFF
                 mixColorFrom: D7BDFF
                 mixColorTo: D7BDFF
@@ -58,26 +58,13 @@ weapons: [{
           {
           type: ParticleEffect
           length: 10
-          sizeFrom: 3
+          sizeFrom: 1
           cone: 40
           interp: pow10Out
           sizeInterp: pow10In
           colorTo: D7BDFF
           lifetime: 65
           particles: 4
-          }
-          {
-          type: ParticleEffect
-          line: true
-          strokeFrom: 4
-          strokeTo: 0
-          lenFrom: 5
-          lenTo: 10
-          colorTo: D7BDFF
-          interp: pow10Out
-          sizeInterp: pow10In
-          particles: 4
-          cone: 40
           }
           ]
           }
