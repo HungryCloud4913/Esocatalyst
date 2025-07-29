@@ -40,20 +40,6 @@ immunities: [
 		        trailLength: 10
 		  }
 		]
-parts: [
-    {
-      type: RegionPart
-      suffix: -pod
-      y: 0
-      moveY: -4
-      moveX: -4
-      progress: recoil
-      heatProgress: recoil
-      heatColor: ABC9FF
-      mirror: false
-      under: true
-}
-]
 weapons: [{
                 name: arraign-wings
                 mirror: false
@@ -99,5 +85,19 @@ weapons: [{
         trailLength: 9
         trailColor: D7BDFF
                }
+parts: [
+    {
+      type: RegionPart
+      suffix: -pod
+      y: 0
+      moveY: -4
+      moveX: -9
+      progress: recoil
+      heatProgress: recoil
+      heatColor: ABC9FF
+      mirror: true
+      under: true
+}
+]
 }
 ]
