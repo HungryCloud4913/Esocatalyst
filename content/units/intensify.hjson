@@ -104,5 +104,6 @@ parts: [
       mirror: false
       under: true
 }
+]
 }
 ]
