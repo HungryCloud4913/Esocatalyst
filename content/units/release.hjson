@@ -11,16 +11,14 @@ mechSideSway: 0
 mechStride: 0
 groundLayer: 60
 flying: false
-speed: 0.95
+speed: 0.9
 accel: 0.8
 drag: 0.1
-armor: 4
-rotateSpeed: 2
-outline: false
+armor: 5
+rotateSpeed: 3
 outlineColor: 2D2F39
 targetAir: true
 faceTarget: true
-treadFrames: 18
 parts: [
   {
     type: HoverPart
@@ -54,32 +52,48 @@ weapons: [
                 alternate: false
                 top: true
                 rotate: false
-		rotateSpeed: 1.2
+		rotateSpeed: 0
                 x: 0
                 y: 0
-                reload: 40
-                layerOffset: 1
-               shoot: {
+                reload: 70
+                shoot: {
   type: ShootBarrel
   barrels: [
-      -3.25, +4, 0,
+      0, +2, 15,
+      0, +2, -15,
       ]
   firstShotDelay: 0
-  shots: 1
+  shots: 2
   shotDelay: 0
     }
             inaccuracy: 0
             recoil: 0
-            shootSound: bolt
+            shootSound: thermoShoot
             shootEffect: none
             bullet: {
-                type: LaserBulletType
-                pierceCap: 1
-                length: 160
-                width: 3
-               colors: [D7BDFF, D7BDFF, D7BDFF]
-                damage: 38
+                type: BasicBulletType
+                damage: 160
+                recoil: 1.5
                 homing: false
+                speed: 6
+                sprite: large-bomb
+                lifetime: 60
+                knockback: 2
+                backColor: D7BDFF
+		shootEffect: shootSmallColor
+		smokeEffect: shootSmokeTitan
+                frontColor: D7BDFF
+                mixColorFrom: D7BDFF
+                mixColorTo: D7BDFF
+                width: 15
+                height: 15
+                damage: 95
+                homing: true
+                 homingRange: 75
+                homingPower: 0.02
+        trailLength: 7
+	trailWidth: 1.9
+        trailColor: D7BDFF
                }
         }
 ]
