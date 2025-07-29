@@ -8,12 +8,12 @@ outlineColor: 2D2F39
 hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
-legCount: 4
-legLength: 15
-lockLegBase: true
+legCount: 6
+legLength: 13
+lockLegBase: false
 legContinuousMove: true
-legExtension: -3
-legBaseOffset: 3
+legExtension: -2
+legBaseOffset: 4
 legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
@@ -23,9 +23,8 @@ legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
 legGroupSize: 3
-baseLegStraightness: 0.5
+baseLegStraightness: 0.6
 rippleScale: 0.1
-legGroupSize: 4
 rippleScale: 0
 targetAir: true
 faceTarget: false
@@ -41,11 +40,11 @@ weapons: [
                 name: gallop-weapon
                 mirror: true
                 top: true
-                alternate: false
+                alternate: true
                 rotate: true
 		rotateSpeed: 3
-                x: +12
-                y: -1
+                x: +8
+                y: 0
                 reload: 20
                 shoot: {
                     shots: 1
