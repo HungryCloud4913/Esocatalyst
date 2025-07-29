@@ -9,11 +9,11 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 6
-legLength: 13
+legLength: 10
 lockLegBase: false
 legContinuousMove: true
-legExtension: -2
-legBaseOffset: 4
+legExtension: -4
+legBaseOffset: 5
 legMaxLength: 1.05
 legLengthScl: 0.96
 legMinLength: 0.8
@@ -59,7 +59,7 @@ weapons: [
                 damage: 20
                 homing: true
                 speed: 6
-                lifetime: 60
+                lifetime: 45
                 knockback: 0
                 backColor: D7BDFF
                 frontColor: D7BDFF
