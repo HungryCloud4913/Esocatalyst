@@ -23,7 +23,7 @@ parts: [
   {
     type: HoverPart
     color: A477DE
-    radius: 12
+    radius: 10
     sides: 4
     layerOffset: -0.0001
     x: 0
@@ -50,7 +50,7 @@ parts: [
     layerOffset: -0.0001
     x: 0
     y: 0
-    phase: 0
+    phase: 1
     mirror: true
 }
 ]
