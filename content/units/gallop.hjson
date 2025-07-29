@@ -55,7 +55,7 @@ weapons: [
             shootEffect: none
             bullet: {
                 type: MissileBulletType
-                damage: 20
+                damage: 35
                 homing: true
                 speed: 6
                 lifetime: 45
