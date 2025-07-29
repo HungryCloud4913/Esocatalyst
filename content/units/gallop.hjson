@@ -33,7 +33,7 @@ speed: 0.9
 rotateSpeed: 4.5
 armor: 5
 envDisabled: 0
-groundLayer: 60
+groundLayer: 61
 weapons: [
 {
                 name: gallop-weapon
