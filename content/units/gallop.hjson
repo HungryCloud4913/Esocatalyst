@@ -1,9 +1,7 @@
 type: legs
 health: 560
-research: core-pointless
-alwaysUnlocked: true
-controller: builderAI
 outlineColor: 2D2F39
+hitsize: 10
 ///
 hovering: true
 legStraightness: 0.2
