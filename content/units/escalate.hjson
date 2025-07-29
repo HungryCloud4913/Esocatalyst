@@ -124,9 +124,9 @@ parts: [
       suffix: -spines
       y: 0
       moveY: -2
-      moveX: +2
+      moveX: -2
       progress: recoil
-      mirror: false
+      mirror: true
       under: true
 }
 ]
