@@ -1,7 +1,7 @@
 template: TankUnitType
 type: tank
-health: 3650
-hitSize: 23
+health: 1900
+hitSize: 17
 hovering: false
 hoverable: false
 lowAltitude: true
@@ -11,7 +11,7 @@ mechSideSway: 0
 mechStride: 0
 groundLayer: 60
 flying: false
-speed: 0.9
+speed: 1.1
 accel: 0.8
 drag: 0.1
 armor: 5
