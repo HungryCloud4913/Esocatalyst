@@ -42,17 +42,6 @@ parts: [
     phase: 150
     mirror: true
 }
-  {
-    type: HoverPart
-    color: A477DE
-    radius: 5
-    sides: 4
-    layerOffset: -0.0001
-    x: 0
-    y: 0
-    phase: 1
-    mirror: true
-}
 ]
 weapons: [
 {
