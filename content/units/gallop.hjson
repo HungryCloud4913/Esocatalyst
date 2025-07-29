@@ -1,7 +1,7 @@
 type: legs
 health: 560
 outlineColor: 2D2F39
-hitSize: 11
+hitSize: 17
 ///
 hovering: true
 legStraightness: 0.2
