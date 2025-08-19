@@ -72,54 +72,6 @@ weapons: [
       despawnEffect: none
     }
   }
-  {
-    alwaysShooting: true
-    controllable: false
-    shootCone: 360
-    x: 0
-    mirror: false
-    recoil: 0
-    reload: 90
-    cooldownTime: 90
-    shootWarmupSpeed: 0.04
-    minWarmup: 0.25
-    shootSound: none
-    bullet: {
-      type: BulletType
-      hittable: false
-      absorbable: false 
-      collides: false 
-      speed: 0
-      lifetime: 0
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-    }
-  }
-  {
-    alwaysShooting: true
-    controllable: false
-    shootCone: 360
-    x: 0
-    mirror: false
-    recoil: 0
-    reload: 50
-    cooldownTime: 50
-    shootWarmupSpeed: 0.04
-    minWarmup: 0.25
-    shootSound: none
-    bullet: {
-      type: BulletType
-      hittable: false
-      absorbable: false 
-      collides: false 
-      speed: 0
-      lifetime: 0
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-    }
-  }
 {
                 name: revoke-small
                 mirror: true
