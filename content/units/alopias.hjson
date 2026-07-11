@@ -121,3 +121,9 @@ bullet: {
                 length: 45
             }
  }]
+research: {
+  parent: hexanchus
+  objectives: [
+    additive-reconstructor
+  ]
+}

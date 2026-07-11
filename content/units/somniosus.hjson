@@ -189,3 +189,9 @@ bullet: {
                 length: 6
             }
  }]
+research: {
+  parent: carcharodon
+  objectives: [
+    tetrative-reconstructor
+  ]
+}
