@@ -123,3 +123,9 @@ bullet: {
         trailColor: bf92f9
             }
  }]
+research: {
+  parent: alopias
+  objectives: [
+    multiplicative-reconstructor
+  ]
+}
